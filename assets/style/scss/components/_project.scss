@@ -1,0 +1,78 @@
+
+    .projects{
+        display: flex;
+        width: 100%;
+        height: 50rem;
+
+        .projectsleftpart{
+            width: 66%;
+            @include flex(column,'','','','');
+            &__firstrow{
+                display: flex;
+                &--All{
+                    background-color:$yellow;
+                    width: 38rem;
+                    height: 38rem;
+                    position: relative;
+
+                    svg{
+                        position: absolute;
+                        left: 0;
+                    }
+                    .menu{
+                        
+                        @include flex(column,'','','','');                            
+
+                       
+                        // .arrowright{
+                        //     @include flex(column,'','','','');                            
+                        //     margin-top: 7rem;
+                        //     margin-left: 5rem;
+                        //     span{
+                        //         font-size: 2rem;
+                        //         color: $white;
+    
+                        //     }
+                        // }
+                        .projectitems{
+                            @include flex(column,'','','','');
+                            margin-top: 13rem;
+                            margin-left: 13rem;
+                            line-height: 1.2rem;
+                           
+    
+                            p:first-child{
+                                position: relative;
+                                color: $black;
+                                font-size: 1.3rem;
+                                span{
+                                    position: absolute;
+                                    font-size: 2rem;
+                                    color: $white;
+                                    left:-2.5rem;
+                                }
+                            }
+                            p{
+                                position: relative;
+                                color:$white;
+                                font-size: 1.3rem;
+                            }
+                        }
+                        .projectlogo{
+                            margin-top: 6rem;
+                            margin-left: 17rem;
+                            p{
+                                color: $white;
+                                font-size: 4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &__rightpart{
+            width: 34%;
+            @include flex(column,'','','','');
+            background-color: blue;
+        }
+    }

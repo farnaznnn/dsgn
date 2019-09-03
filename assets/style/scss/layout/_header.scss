@@ -47,11 +47,11 @@
   }
 
   &__rightpart {
-    display: flex;
+    flex-direction: column;
     background-color: $light-blue;
     flex-grow: 1;
-    width: 34%;
-    height: 45rem;
+    width: 38rem;
+    height: 38rem;
     position: relative;
     // overflow: hidden;
 
@@ -61,36 +61,44 @@
     }
 
     &--menubar {
-      flex-direction: row;
+      // flex-direction: row;
       @include flex("", center, center, "", "");
-      width: 6rem;
-      height: 6rem;
-      border: 1px solid $white;
-      margin-bottom: 5rem;
+      width: 10rem;
+      height: 10rem;
+      border: 3.5px solid $white;
+      margin-left: 15rem;
+      margin-top: 3rem;
 
-      .menu {
-        width: 2rem;
-        height: 0.5rem;
-        background-color: $white;
-        margin: 1rem 0;
+      .menulist {
+
+        #menu{
+
+          width: 4rem;
+          height: 0.5rem;
+          background-color: $white;
+          margin: 0.5rem 0;
+        }
       }
     }
     &--address {
-      flex-direction: row;
-      display: flex;
-      justify-content: flex-start;
-      margin-bottom: 5rem;
+      @include flex(column,'','','','');
+      margin-top: 4rem;
+      margin-left: 6rem;
 
       p {
         color: $white;
-        font-size: 2rem;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
       }
     }
     &--tellandemail {
-      @include flex(row, center, center, "", "");
+      @include flex(column, "", "", "", "");
+      margin-top: 2rem;
+      margin-left: 13rem;
       p {
         color: $white;
-        font-size: 2rem;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
       }
     }
   }
