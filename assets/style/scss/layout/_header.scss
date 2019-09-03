@@ -1,0 +1,112 @@
+
+    
+    .HeaderSection{
+    width:100%;
+    display: flex;
+
+      &__leftpart{
+        display: flex;
+        // width: 100%;
+        flex-grow: 2;
+        background-position: center ;
+        background-size:cover;
+        background-repeat: no-repeat;
+        padding: 5rem 1rem;
+
+       &--Design{
+         display: flex;
+         flex-direction: column;
+         padding-left: 10rem;
+        .Logo{
+
+          image{
+            margin:1.5rem;
+            width: 2rem;
+            height: 2rem;
+    
+          }
+        }
+
+        .items{
+          margin-bottom: 4rem;
+          p{
+            font-size:2rem;
+            color: $black;
+            line-height: 2rem;
+            // margin-top: 0.5rem;
+            // margin-bottom: 3rem;
+
+          }
+        }
+
+        .fonticons{
+          
+          color: $blue;
+          font-size:2.5rem;
+          
+          @include flex("",center,center,"","");
+          i{
+            margin: 0.5rem;
+          }
+
+        }
+      
+
+
+       }
+         
+
+      }
+
+      
+      
+    
+        &__rightpart{
+          display: flex;
+          background-color:$light-blue;
+          flex-grow: 1;
+          width: 10rem;
+          height: 45rem;
+          // overflow: hidden;
+
+          &--menubar{
+            flex-direction: row;
+            @include flex("",center,center,"","");
+            width: 6rem;
+            height: 6rem;
+            border: 1px solid $white;
+            margin-bottom: 5rem;
+
+            .menu{
+              width: 2rem;
+              height: 0.5rem;
+              background-color: $white;
+              margin: 1rem 0;
+
+            }
+
+          }
+          &--address{
+            flex-direction: row;
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 5rem;
+
+            p{
+              color:$white;
+              font-size: 2rem;
+            }
+          }
+          &--tellandemail{
+             @include flex(row,center,center,"","");
+            p{
+              color:$white;
+              font-size: 2rem;
+            }
+          }
+
+         
+  
+        }
+  
+   }
