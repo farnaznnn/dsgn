@@ -5,14 +5,17 @@
         height: 50rem;
 
         .projectsleftpart{
-            width: 66%;
+            width: 72.5%;
             @include flex(column,'','','','');
             &__firstrow{
+                width: 100%;
                 display: flex;
                 &--All{
                     background-color:$yellow;
-                    width: 38rem;
-                    height: 38rem;
+                    display: flex;
+                    // width: 38rem;
+                    // height: 38rem;
+                    width: 40%;
                     position: relative;
 
                     svg{
@@ -36,7 +39,7 @@
                         // }
                         .projectitems{
                             @include flex(column,'','','','');
-                            margin-top: 13rem;
+                            margin-top: 14rem;
                             margin-left: 13rem;
                             line-height: 1.2rem;
                            
@@ -44,34 +47,107 @@
                             p:first-child{
                                 position: relative;
                                 color: $black;
-                                font-size: 1.3rem;
+                                font-size: 2rem;
                                 span{
                                     position: absolute;
-                                    font-size: 2rem;
+                                    font-size: 3rem;
                                     color: $white;
-                                    left:-2.5rem;
+                                    left:-3.5rem;
                                 }
                             }
                             p{
                                 position: relative;
                                 color:$white;
-                                font-size: 1.3rem;
+                                font-size: 2rem;
                             }
                         }
                         .projectlogo{
-                            margin-top: 6rem;
-                            margin-left: 17rem;
+                            // margin-top: 6rem;
+                            // margin-left: 17rem;
                             p{
                                 color: $white;
                                 font-size: 4rem;
+                                margin-bottom: 7rem;
+                                margin-left: 19rem;
+                                margin-top: 13rem;
+
                             }
                         }
                     }
                 }
+                &--fondue{
+                    width: 60%;
+                    display: flex;
+                    background-position: center;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+
+                    .fonduetext{
+                        width: 60%;
+                        @include flex(column,'','','','');
+                        .fonduename{
+                            margin-top: 5rem;
+                            margin-left: 15rem;
+                            p{
+                                font-size: 3rem;
+                                color: $fonts-title;
+                            }
+                        }
+                        .fonduedescribtion{
+                            @include flex(column,'','','','');
+                            margin-top:8rem;
+                            margin-left:6rem;
+                            p{
+                                font-size: 1.7rem;
+                                color: $footer-color;
+                                line-height: 1.3rem;
+
+                            }
+                        }
+                        .fondueview{
+                            margin-top: 6rem;
+                            margin-left: 15rem;
+
+                            p{
+                                position: relative;
+                                font-size: 1.8rem;
+                                color: $fonts-title;
+                                span{
+                                    position: absolute;
+                                    font-size: 2rem;
+                                    color: $yellow;
+                                    left: -2rem;
+
+
+                                }
+                            }
+                        }
+                        .foundelike{
+                            @include flex(column,'','','','');
+                            padding-top: 10rem;
+                            // padding-left: 18rem;
+                            i{
+                                font-size: 2rem;
+                                color: $fonts-title;
+                                padding-left: 18rem;
+                            }
+                            p{
+                                color: $red;
+                                font-size: 1.7rem;
+                                padding-left: 17rem;
+
+                            }
+                        }
+                    }
+                    fondueimage{
+                        width: 40%;
+                        @include flex(column,'','','','');
+                    }
+                }
             }
         }
-        &__rightpart{
-            width: 34%;
+        .projectsrightpart{
+            width: 27.5%;
             @include flex(column,'','','','');
             background-color: blue;
         }

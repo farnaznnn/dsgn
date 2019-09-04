@@ -4,12 +4,13 @@
 
   &__leftpart {
     display: flex;
-    width: 66%;
-    flex-grow: 2;
+    // width: 66%;
+    // flex-grow: 2;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 5rem 1rem;
+    padding: 2rem 10rem;
+    flex-basis: calc(70% + 10rem);
 
     &--Design {
       display: flex;
@@ -49,11 +50,12 @@
   &__rightpart {
     flex-direction: column;
     background-color: $light-blue;
-    flex-grow: 1;
-    width: 38rem;
-    height: 38rem;
+    // flex-grow: 1;
+    // width: 38rem;
+    // height: 38rem;
     position: relative;
     // overflow: hidden;
+    flex-basis: 30%;
 
     svg{
       position: absolute;
@@ -66,8 +68,8 @@
       width: 10rem;
       height: 10rem;
       border: 3.5px solid $white;
-      margin-left: 15rem;
-      margin-top: 3rem;
+      margin-left: 14rem;
+      margin-top: 2rem;
 
       .menulist {
 
@@ -82,22 +84,22 @@
     }
     &--address {
       @include flex(column,'','','','');
-      margin-top: 4rem;
-      margin-left: 6rem;
+      margin-top: 5rem;
+      margin-left: 3rem;
 
       p {
         color: $white;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         line-height: 1.5rem;
       }
     }
     &--tellandemail {
       @include flex(column, "", "", "", "");
-      margin-top: 2rem;
-      margin-left: 13rem;
+      margin-top: 1rem;
+      margin-left: 15rem;
       p {
         color: $white;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         line-height: 1.5rem;
       }
     }
