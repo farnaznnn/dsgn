@@ -356,6 +356,110 @@ body {
           width: 40%;
           display: flex;
           flex-direction: column; }
+    .projects .projectsleftpart__secondrow {
+      display: flex;
+      width: 100%; }
+      .projects .projectsleftpart__secondrow--louis {
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 10rem; }
+        .projects .projectsleftpart__secondrow--louis .louistext {
+          width: 60%;
+          display: flex;
+          flex-direction: column; }
+          .projects .projectsleftpart__secondrow--louis .louistext .louisname {
+            margin-top: 2rem;
+            margin-left: 3rem; }
+            .projects .projectsleftpart__secondrow--louis .louistext .louisname p {
+              font-size: 3rem;
+              color: #ffffff; }
+          .projects .projectsleftpart__secondrow--louis .louistext .louisdescribtion {
+            display: flex;
+            flex-direction: column;
+            margin-top: 2rem; }
+            .projects .projectsleftpart__secondrow--louis .louistext .louisdescribtion p {
+              font-size: 1.5rem;
+              color: #ffffff;
+              line-height: 1.3rem; }
+          .projects .projectsleftpart__secondrow--louis .louistext .louisview {
+            margin-top: 5rem;
+            margin-left: 2rem; }
+            .projects .projectsleftpart__secondrow--louis .louistext .louisview p {
+              position: relative;
+              font-size: 1.8rem;
+              color: #ffffff; }
+              .projects .projectsleftpart__secondrow--louis .louistext .louisview p span {
+                position: absolute;
+                font-size: 2rem;
+                color: #ebb240;
+                left: -2rem; }
+          .projects .projectsleftpart__secondrow--louis .louistext .louislike {
+            display: flex;
+            flex-direction: column; }
+            .projects .projectsleftpart__secondrow--louis .louistext .louislike i {
+              font-size: 2rem;
+              color: #ffffff;
+              margin-top: 3rem;
+              margin-left: 6rem; }
+            .projects .projectsleftpart__secondrow--louis .louistext .louislike p {
+              color: #ec4c4c;
+              font-size: 1.7rem;
+              margin-left: 5rem;
+              margin-bottom: 10rem; }
+        .projects .projectsleftpart__secondrow--louis .louisimage {
+          width: 40%;
+          display: flex;
+          flex-direction: column; }
+      .projects .projectsleftpart__secondrow--brownchairs {
+        display: flex;
+        width: 65%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+        .projects .projectsleftpart__secondrow--brownchairs .brownchairstext {
+          width: 55%;
+          display: flex; }
+          .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext1 {
+            display: flex;
+            justify-content: center;
+            flex-direction: column; }
+            .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext1 .brownchairscode p {
+              font-size: 1.7rem;
+              color: #4c4c4c; }
+            .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext1 .brownchairsdescribtion {
+              display: flex;
+              flex-direction: column; }
+              .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext1 .brownchairsdescribtion p {
+                font-size: 1.5rem;
+                color: #4c4c4c; }
+          .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 {
+            display: flex;
+            justify-content: center;
+            flex-direction: column; }
+            .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairsview p {
+              position: relative;
+              font-size: 1.8rem;
+              color: #4c4c4c; }
+              .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairsview p span {
+                position: absolute;
+                font-size: 2rem;
+                color: #ebb240;
+                left: -2rem; }
+            .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairslike i {
+              font-size: 2rem;
+              color: #4c4c4c;
+              padding-left: 18rem; }
+            .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairslike p {
+              color: #ec4c4c;
+              font-size: 1.7rem;
+              padding-left: 17rem; }
+        .projects .projectsleftpart__secondrow--brownchairs .brownchairsimage {
+          width: 45%;
+          display: flex; }
   .projects .projectsrightpart {
     width: 27.5%;
     display: flex;

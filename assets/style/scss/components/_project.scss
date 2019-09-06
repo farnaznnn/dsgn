@@ -145,7 +145,160 @@
                     }
                 }
             }
+            &__secondrow{
+                display: flex;
+                width: 100%;
+                &--louis{
+                    display: flex;
+                    flex-direction: column;
+                    width: 35%;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    padding-bottom: 10rem;
+                    .louistext{
+                        width: 60%;
+                        @include flex(column,'','','','');
+                        .louisname{
+                            margin-top: 2rem;
+                            margin-left: 3rem;
+                            p{
+                                font-size: 3rem;
+                                color: $white;
+
+                            }
+                        }
+                        .louisdescribtion{
+                            @include flex(column,'','','','');
+                            margin-top:2rem;
+                            p{
+                                font-size: 1.5rem;
+                                color: $white;
+                                line-height: 1.3rem;
+
+                            }
+                        }
+                        .louisview{
+                            margin-top: 5rem;
+                            margin-left: 2rem;
+
+                            p{
+                                position: relative;
+                                font-size: 1.8rem;
+                                color: $white;
+                                span{
+                                    position: absolute;
+                                    font-size: 2rem;
+                                    color: $yellow;
+                                    left: -2rem;
+
+
+                                }
+                            }
+                        }
+                        .louislike{
+                            @include flex(column,'','','','');
+                            // padding-top: 10rem;
+                            // padding-left: 18rem;
+                            i{
+                                font-size: 2rem;
+                                color: $white;
+                                margin-top: 3rem;
+                                margin-left: 6rem;
+                            }
+                            p{
+                                color: $red;
+                                font-size: 1.7rem;
+                                margin-left: 5rem;
+                                margin-bottom: 10rem;
+
+                            }
+                        }
+                    }
+                    .louisimage{
+                        width: 40%;
+                        @include flex(column,'','','','');
+                    }
+                }
+                &--brownchairs{
+                    display: flex;
+                    width:65%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    .brownchairstext{
+                        width: 55%;
+                        display: flex;
+                        .brownchairstext1{
+                            // width:20%;
+                            @include flex (column,center,'','','');
+
+                            .brownchairscode{
+                                p{
+                                    font-size: 1.7rem;
+                                    color: $fonts-title;
+                                }
+                            }
+                            .brownchairsdescribtion{
+                                @include flex(column,'','','','');
+                                p{
+                                    font-size:1.5rem;
+                                    color:$fonts-title;
+                                }
+                            }
+
+                        }
+                        .brownchairstext2{
+                            @include flex(column,center,'','','');
+                            // width: 20%;
+
+                            .brownchairsview{
+                                // @include flex(column,'','','','');
+                                p{
+                                    position: relative;
+                                    font-size: 1.8rem;
+                                    color: $fonts-title;
+                                    span{
+                                        position: absolute;
+                                        font-size: 2rem;
+                                        color: $yellow;
+                                        left: -2rem;
+    
+    
+                                    }
+                                }
+                            }
+                            .brownchairslike{
+                                // @include flex(column,'','','','');
+
+                                i{
+                                    font-size: 2rem;
+                                    color: $fonts-title;
+                                    padding-left: 18rem;
+                                }
+                                p{
+                                    color: $red;
+                                    font-size: 1.7rem;
+                                    padding-left: 17rem;
+    
+                                }
+                            }
+
+                        }
+
+                    }
+
+                    .brownchairsimage{
+                        width: 45%;
+                        display: flex;
+                    }
+                }
+            }
         }
+
+
+
+
         .projectsrightpart{
             width: 27.5%;
             @include flex(column,'','','','');
