@@ -421,12 +421,13 @@ body {
         background-position: center;
         background-size: cover; }
         .projects .projectsleftpart__secondrow--brownchairs .brownchairstext {
-          width: 55%;
           display: flex; }
           .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext1 {
             display: flex;
-            justify-content: center;
-            flex-direction: column; }
+            justify-content: flex-start;
+            flex-direction: column;
+            margin-left: 28rem;
+            margin-top: 8rem; }
             .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext1 .brownchairscode p {
               font-size: 1.7rem;
               color: #4c4c4c; }
@@ -438,8 +439,10 @@ body {
                 color: #4c4c4c; }
           .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 {
             display: flex;
-            justify-content: center;
-            flex-direction: column; }
+            justify-content: flex-start;
+            flex-direction: column;
+            margin-left: 6rem;
+            margin-top: 8rem; }
             .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairsview p {
               position: relative;
               font-size: 1.8rem;
@@ -449,21 +452,97 @@ body {
                 font-size: 2rem;
                 color: #ebb240;
                 left: -2rem; }
-            .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairslike i {
-              font-size: 2rem;
-              color: #4c4c4c;
-              padding-left: 18rem; }
-            .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairslike p {
-              color: #ec4c4c;
-              font-size: 1.7rem;
-              padding-left: 17rem; }
-        .projects .projectsleftpart__secondrow--brownchairs .brownchairsimage {
-          width: 45%;
-          display: flex; }
+            .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairslike {
+              margin-left: 4rem;
+              margin-top: 4rem; }
+              .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairslike i {
+                font-size: 2rem;
+                color: #4c4c4c; }
+              .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairslike p {
+                color: #ec4c4c;
+                font-size: 1.7rem;
+                padding-left: -0.75rem; }
   .projects .projectsrightpart {
     width: 27.5%;
     display: flex;
-    flex-direction: column;
-    background-color: blue; }
+    flex-direction: column; }
+    .projects .projectsrightpart__potter {
+      display: flex;
+      flex-direction: column;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .projects .projectsrightpart__potter .pottertext {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-left: 3rem;
+        margin-top: 2rem; }
+        .projects .projectsrightpart__potter .pottertext .pottername p {
+          font-size: 2rem;
+          color: #000000; }
+        .projects .projectsrightpart__potter .pottertext .potterdescribtion p {
+          font-size: 1.2rem;
+          color: #4c4c4c;
+          line-height: 1rem; }
+        .projects .projectsrightpart__potter .pottertext .potterview {
+          margin-left: 2rem;
+          margin-top: 1rem; }
+          .projects .projectsrightpart__potter .pottertext .potterview p {
+            position: relative;
+            font-size: 1.4rem;
+            color: #4c4c4c; }
+            .projects .projectsrightpart__potter .pottertext .potterview p span {
+              position: absolute;
+              font-size: 1.5rem;
+              color: #ebb240;
+              left: -2rem; }
+        .projects .projectsrightpart__potter .pottertext .potterlike {
+          margin-left: 5rem;
+          margin-top: 2rem;
+          margin-bottom: 3rem; }
+          .projects .projectsrightpart__potter .pottertext .potterlike i {
+            font-size: 1.5rem;
+            color: #4c4c4c; }
+          .projects .projectsrightpart__potter .pottertext .potterlike p {
+            color: #ec4c4c;
+            font-size: 1.3rem; }
+    .projects .projectsrightpart__tabano {
+      display: flex;
+      flex-direction: column;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .projects .projectsrightpart__tabano .tabanotext {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-left: 5rem;
+        margin-top: 10rem; }
+        .projects .projectsrightpart__tabano .tabanotext .tabanoname p {
+          font-size: 2rem;
+          color: #000000; }
+        .projects .projectsrightpart__tabano .tabanotext .tabanodescribtion p {
+          font-size: 1.5rem;
+          color: #4c4c4c; }
+      .projects .projectsrightpart__tabano .tabanodesign {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5rem; }
+        .projects .projectsrightpart__tabano .tabanodesign .tabanoview p {
+          position: relative;
+          font-size: 1.4rem;
+          color: #4c4c4c; }
+          .projects .projectsrightpart__tabano .tabanodesign .tabanoview p span {
+            position: absolute;
+            font-size: 1.5rem;
+            color: #ebb240;
+            left: -2rem; }
+        .projects .projectsrightpart__tabano .tabanodesign .tabanolike i {
+          font-size: 1.5rem;
+          color: #4c4c4c; }
+        .projects .projectsrightpart__tabano .tabanodesign .tabanolike p {
+          color: #ec4c4c;
+          font-size: 1.3rem; }
 
 /* pages */

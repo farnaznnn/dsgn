@@ -164,7 +164,7 @@
                             margin-left: 3rem;
                             p{
                                 font-size: 3rem;
-                                color: $white;
+                               color: $white;
 
                             }
                         }
@@ -227,11 +227,12 @@
                     background-position: center;
                     background-size: cover;
                     .brownchairstext{
-                        width: 55%;
                         display: flex;
                         .brownchairstext1{
                             // width:20%;
-                            @include flex (column,center,'','','');
+                            @include flex (column,flex-start,'','','');
+                            margin-left:28rem;
+                            margin-top:8rem;
 
                             .brownchairscode{
                                 p{
@@ -249,8 +250,10 @@
 
                         }
                         .brownchairstext2{
-                            @include flex(column,center,'','','');
+                            @include flex(column,flex-start,'','','');
                             // width: 20%;
+                            margin-left:6rem;
+                            margin-top:8rem;
 
                             .brownchairsview{
                                 // @include flex(column,'','','','');
@@ -270,16 +273,17 @@
                             }
                             .brownchairslike{
                                 // @include flex(column,'','','','');
-
+                                margin-left:4rem;
+                                margin-top:4rem;
                                 i{
                                     font-size: 2rem;
                                     color: $fonts-title;
-                                    padding-left: 18rem;
+                                    // padding-left: 18rem;
                                 }
                                 p{
                                     color: $red;
                                     font-size: 1.7rem;
-                                    padding-left: 17rem;
+                                    padding-left:-0.75rem;
     
                                 }
                             }
@@ -288,10 +292,7 @@
 
                     }
 
-                    .brownchairsimage{
-                        width: 45%;
-                        display: flex;
-                    }
+                   
                 }
             }
         }
@@ -302,6 +303,122 @@
         .projectsrightpart{
             width: 27.5%;
             @include flex(column,'','','','');
-            background-color: blue;
+            // background-color: blue;
+            &__potter{
+                display:flex;
+                flex-direction:column;
+                background-position:center;
+                background-size:cover;
+                background-repeat:no-repeat;
+                // padding-bottom:5rem;
+                .pottertext{
+                    @include flex(column,flex-start,'','','');
+                    margin-left:3rem;
+                    margin-top:2rem;
+                    .pottername{
+                        p{
+                            font-size:2rem;
+                            color:$black;
+                        }
+                    }
+                    .potterdescribtion{
+                        p{
+                            font-size:1.2rem;
+                            color:$fonts-title;
+                            line-height:1rem;
+                        }
+                    }
+                    .potterview{
+                        margin-left:2rem;
+                        margin-top:1rem;
+                        p{
+                            position: relative;
+                            font-size: 1.4rem;
+                            color: $fonts-title;
+                            span{
+                                position: absolute;
+                                font-size: 1.5rem;
+                                color: $yellow;
+                                left: -2rem;
+    
+    
+                            }
+                        }
+                    }
+                    .potterlike{
+                        margin-left:5rem;
+                        margin-top:2rem;
+                        margin-bottom:3rem;
+                        i{
+                            font-size: 1.5rem;
+                            color: $fonts-title;
+                            // padding-left: 18rem;
+                        }
+                        p{
+                            color: $red;
+                            font-size: 1.3rem;
+                            // padding-left:-0.75rem;
+    
+                        }
+                    }
+                }
+
+            }
+            &__tabano{
+                display:flex;
+                flex-direction:column;
+                background-position:center;
+                background-size:cover;
+                background-repeat:no-repeat;
+                .tabanotext{
+                    @include flex(column,flex-start,'','','');
+                    margin-left:5rem;
+                    margin-top:10rem;
+                    .tabanoname{
+                        p{
+                            font-size:2rem;
+                            color:$black;
+                        }
+                    }
+                    .tabanodescribtion{
+                        p{
+                            font-size:1.5rem;
+                            color:$fonts-title;
+                        }
+                    }
+                }
+                .tabanodesign{
+                    @include flex(column,'','','','');
+                    margin-left:5rem;
+                    .tabanoview{
+                        p{
+                            position: relative;
+                            font-size: 1.4rem;
+                            color: $fonts-title;
+                            span{
+                                position: absolute;
+                                font-size: 1.5rem;
+                                color: $yellow;
+                                left: -2rem;
+    
+    
+                            }
+                        }
+                    }
+                    .tabanolike{
+                        i{
+                            font-size: 1.5rem;
+                            color: $fonts-title;
+                            // padding-left: 18rem;
+                        }
+                        p{
+                            color: $red;
+                            font-size: 1.3rem;
+                            // padding-left:-0.75rem;
+    
+                        }
+                    }
+                }
+            }
         }
     }
