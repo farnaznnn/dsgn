@@ -256,110 +256,110 @@ body {
         line-height: 1.5rem; }
 
 /* components */
-.projects {
+.projects .projects1 {
   display: flex;
   width: 100%;
   height: 50rem; }
-  .projects .projectsleftpart {
-    width: 72.5%;
+  .projects .projects1 .projects1leftpart {
+    width: 64.5%;
     display: flex;
     flex-direction: column; }
-    .projects .projectsleftpart__firstrow {
+    .projects .projects1 .projects1leftpart__firstrow {
       width: 100%;
       display: flex; }
-      .projects .projectsleftpart__firstrow--All {
+      .projects .projects1 .projects1leftpart__firstrow--All {
         background-color: #ebb240;
         display: flex;
         width: 40%;
         position: relative; }
-        .projects .projectsleftpart__firstrow--All svg {
+        .projects .projects1 .projects1leftpart__firstrow--All svg {
           position: absolute;
           left: 0; }
-        .projects .projectsleftpart__firstrow--All .menu {
+        .projects .projects1 .projects1leftpart__firstrow--All .menu {
           display: flex;
           flex-direction: column; }
-          .projects .projectsleftpart__firstrow--All .menu .projectitems {
+          .projects .projects1 .projects1leftpart__firstrow--All .menu .projectitems {
             display: flex;
             flex-direction: column;
-            margin-top: 14rem;
-            margin-left: 13rem;
+            margin-top: 20rem;
+            margin-left: 7rem;
             line-height: 1.2rem; }
-            .projects .projectsleftpart__firstrow--All .menu .projectitems p:first-child {
+            .projects .projects1 .projects1leftpart__firstrow--All .menu .projectitems p:first-child {
               position: relative;
               color: #000000;
               font-size: 2rem; }
-              .projects .projectsleftpart__firstrow--All .menu .projectitems p:first-child span {
+              .projects .projects1 .projects1leftpart__firstrow--All .menu .projectitems p:first-child span {
                 position: absolute;
                 font-size: 3rem;
                 color: #ffffff;
                 left: -3.5rem; }
-            .projects .projectsleftpart__firstrow--All .menu .projectitems p {
+            .projects .projects1 .projects1leftpart__firstrow--All .menu .projectitems p {
               position: relative;
               color: #ffffff;
               font-size: 2rem; }
-          .projects .projectsleftpart__firstrow--All .menu .projectlogo p {
+          .projects .projects1 .projects1leftpart__firstrow--All .menu .projectlogo p {
             color: #ffffff;
             font-size: 4rem;
             margin-bottom: 7rem;
-            margin-left: 19rem;
-            margin-top: 13rem; }
-      .projects .projectsleftpart__firstrow--fondue {
+            margin-left: 15rem;
+            margin-top: 7rem; }
+      .projects .projects1 .projects1leftpart__firstrow--fondue {
         width: 60%;
         display: flex;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat; }
-        .projects .projectsleftpart__firstrow--fondue .fonduetext {
+        .projects .projects1 .projects1leftpart__firstrow--fondue .fonduetext {
           width: 60%;
           display: flex;
           flex-direction: column; }
-          .projects .projectsleftpart__firstrow--fondue .fonduetext .fonduename {
+          .projects .projects1 .projects1leftpart__firstrow--fondue .fonduetext .fonduename {
             margin-top: 5rem;
             margin-left: 15rem; }
-            .projects .projectsleftpart__firstrow--fondue .fonduetext .fonduename p {
+            .projects .projects1 .projects1leftpart__firstrow--fondue .fonduetext .fonduename p {
               font-size: 3rem;
               color: #4c4c4c; }
-          .projects .projectsleftpart__firstrow--fondue .fonduetext .fonduedescribtion {
+          .projects .projects1 .projects1leftpart__firstrow--fondue .fonduetext .fonduedescribtion {
             display: flex;
             flex-direction: column;
             margin-top: 8rem;
             margin-left: 6rem; }
-            .projects .projectsleftpart__firstrow--fondue .fonduetext .fonduedescribtion p {
+            .projects .projects1 .projects1leftpart__firstrow--fondue .fonduetext .fonduedescribtion p {
               font-size: 1.7rem;
               color: #2d2d2d;
               line-height: 1.3rem; }
-          .projects .projectsleftpart__firstrow--fondue .fonduetext .fondueview {
+          .projects .projects1 .projects1leftpart__firstrow--fondue .fonduetext .fondueview {
             margin-top: 6rem;
             margin-left: 15rem; }
-            .projects .projectsleftpart__firstrow--fondue .fonduetext .fondueview p {
+            .projects .projects1 .projects1leftpart__firstrow--fondue .fonduetext .fondueview p {
               position: relative;
               font-size: 1.8rem;
               color: #4c4c4c; }
-              .projects .projectsleftpart__firstrow--fondue .fonduetext .fondueview p span {
+              .projects .projects1 .projects1leftpart__firstrow--fondue .fonduetext .fondueview p span {
                 position: absolute;
                 font-size: 2rem;
                 color: #ebb240;
                 left: -2rem; }
-          .projects .projectsleftpart__firstrow--fondue .fonduetext .foundelike {
+          .projects .projects1 .projects1leftpart__firstrow--fondue .fonduetext .foundelike {
             display: flex;
             flex-direction: column;
             padding-top: 10rem; }
-            .projects .projectsleftpart__firstrow--fondue .fonduetext .foundelike i {
+            .projects .projects1 .projects1leftpart__firstrow--fondue .fonduetext .foundelike i {
               font-size: 2rem;
               color: #4c4c4c;
               padding-left: 18rem; }
-            .projects .projectsleftpart__firstrow--fondue .fonduetext .foundelike p {
+            .projects .projects1 .projects1leftpart__firstrow--fondue .fonduetext .foundelike p {
               color: #ec4c4c;
               font-size: 1.7rem;
               padding-left: 17rem; }
-        .projects .projectsleftpart__firstrow--fondue fondueimage {
+        .projects .projects1 .projects1leftpart__firstrow--fondue fondueimage {
           width: 40%;
           display: flex;
           flex-direction: column; }
-    .projects .projectsleftpart__secondrow {
+    .projects .projects1 .projects1leftpart__secondrow {
       display: flex;
       width: 100%; }
-      .projects .projectsleftpart__secondrow--louis {
+      .projects .projects1 .projects1leftpart__secondrow--louis {
         display: flex;
         flex-direction: column;
         width: 35%;
@@ -367,182 +367,256 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         padding-bottom: 10rem; }
-        .projects .projectsleftpart__secondrow--louis .louistext {
+        .projects .projects1 .projects1leftpart__secondrow--louis .louistext {
           width: 60%;
           display: flex;
           flex-direction: column; }
-          .projects .projectsleftpart__secondrow--louis .louistext .louisname {
+          .projects .projects1 .projects1leftpart__secondrow--louis .louistext .louisname {
             margin-top: 2rem;
             margin-left: 3rem; }
-            .projects .projectsleftpart__secondrow--louis .louistext .louisname p {
+            .projects .projects1 .projects1leftpart__secondrow--louis .louistext .louisname p {
               font-size: 3rem;
               color: #ffffff; }
-          .projects .projectsleftpart__secondrow--louis .louistext .louisdescribtion {
+          .projects .projects1 .projects1leftpart__secondrow--louis .louistext .louisdescribtion {
             display: flex;
             flex-direction: column;
             margin-top: 2rem; }
-            .projects .projectsleftpart__secondrow--louis .louistext .louisdescribtion p {
+            .projects .projects1 .projects1leftpart__secondrow--louis .louistext .louisdescribtion p {
               font-size: 1.5rem;
               color: #ffffff;
               line-height: 1.3rem; }
-          .projects .projectsleftpart__secondrow--louis .louistext .louisview {
+          .projects .projects1 .projects1leftpart__secondrow--louis .louistext .louisview {
             margin-top: 5rem;
             margin-left: 2rem; }
-            .projects .projectsleftpart__secondrow--louis .louistext .louisview p {
+            .projects .projects1 .projects1leftpart__secondrow--louis .louistext .louisview p {
               position: relative;
               font-size: 1.8rem;
               color: #ffffff; }
-              .projects .projectsleftpart__secondrow--louis .louistext .louisview p span {
+              .projects .projects1 .projects1leftpart__secondrow--louis .louistext .louisview p span {
                 position: absolute;
                 font-size: 2rem;
                 color: #ebb240;
                 left: -2rem; }
-          .projects .projectsleftpart__secondrow--louis .louistext .louislike {
+          .projects .projects1 .projects1leftpart__secondrow--louis .louistext .louislike {
             display: flex;
             flex-direction: column; }
-            .projects .projectsleftpart__secondrow--louis .louistext .louislike i {
+            .projects .projects1 .projects1leftpart__secondrow--louis .louistext .louislike i {
               font-size: 2rem;
               color: #ffffff;
               margin-top: 3rem;
               margin-left: 6rem; }
-            .projects .projectsleftpart__secondrow--louis .louistext .louislike p {
+            .projects .projects1 .projects1leftpart__secondrow--louis .louistext .louislike p {
               color: #ec4c4c;
               font-size: 1.7rem;
               margin-left: 5rem;
               margin-bottom: 10rem; }
-        .projects .projectsleftpart__secondrow--louis .louisimage {
+        .projects .projects1 .projects1leftpart__secondrow--louis .louisimage {
           width: 40%;
           display: flex;
           flex-direction: column; }
-      .projects .projectsleftpart__secondrow--brownchairs {
+      .projects .projects1 .projects1leftpart__secondrow--brownchairs {
         display: flex;
         width: 65%;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; }
-        .projects .projectsleftpart__secondrow--brownchairs .brownchairstext {
+        .projects .projects1 .projects1leftpart__secondrow--brownchairs .brownchairstext {
           display: flex; }
-          .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext1 {
+          .projects .projects1 .projects1leftpart__secondrow--brownchairs .brownchairstext .brownchairstext1 {
             display: flex;
             justify-content: flex-start;
             flex-direction: column;
             margin-left: 28rem;
             margin-top: 8rem; }
-            .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext1 .brownchairscode p {
+            .projects .projects1 .projects1leftpart__secondrow--brownchairs .brownchairstext .brownchairstext1 .brownchairscode p {
               font-size: 1.7rem;
               color: #4c4c4c; }
-            .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext1 .brownchairsdescribtion {
+            .projects .projects1 .projects1leftpart__secondrow--brownchairs .brownchairstext .brownchairstext1 .brownchairsdescribtion {
               display: flex;
               flex-direction: column; }
-              .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext1 .brownchairsdescribtion p {
+              .projects .projects1 .projects1leftpart__secondrow--brownchairs .brownchairstext .brownchairstext1 .brownchairsdescribtion p {
                 font-size: 1.5rem;
                 color: #4c4c4c; }
-          .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 {
+          .projects .projects1 .projects1leftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 {
             display: flex;
             justify-content: flex-start;
             flex-direction: column;
             margin-left: 6rem;
             margin-top: 8rem; }
-            .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairsview p {
+            .projects .projects1 .projects1leftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairsview p {
               position: relative;
               font-size: 1.8rem;
               color: #4c4c4c; }
-              .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairsview p span {
+              .projects .projects1 .projects1leftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairsview p span {
                 position: absolute;
                 font-size: 2rem;
                 color: #ebb240;
                 left: -2rem; }
-            .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairslike {
+            .projects .projects1 .projects1leftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairslike {
               margin-left: 4rem;
               margin-top: 4rem; }
-              .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairslike i {
+              .projects .projects1 .projects1leftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairslike i {
                 font-size: 2rem;
                 color: #4c4c4c; }
-              .projects .projectsleftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairslike p {
+              .projects .projects1 .projects1leftpart__secondrow--brownchairs .brownchairstext .brownchairstext2 .brownchairslike p {
                 color: #ec4c4c;
                 font-size: 1.7rem;
                 padding-left: -0.75rem; }
-  .projects .projectsrightpart {
-    width: 27.5%;
+  .projects .projects1 .projects1rightpart {
+    width: 35.5%;
     display: flex;
     flex-direction: column; }
-    .projects .projectsrightpart__potter {
+    .projects .projects1 .projects1rightpart__potter {
       display: flex;
       flex-direction: column;
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
-      .projects .projectsrightpart__potter .pottertext {
+      .projects .projects1 .projects1rightpart__potter .pottertext {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
         margin-left: 3rem;
         margin-top: 2rem; }
-        .projects .projectsrightpart__potter .pottertext .pottername p {
+        .projects .projects1 .projects1rightpart__potter .pottertext .pottername p {
           font-size: 2rem;
           color: #000000; }
-        .projects .projectsrightpart__potter .pottertext .potterdescribtion p {
+        .projects .projects1 .projects1rightpart__potter .pottertext .potterdescribtion p {
           font-size: 1.2rem;
           color: #4c4c4c;
           line-height: 1rem; }
-        .projects .projectsrightpart__potter .pottertext .potterview {
+        .projects .projects1 .projects1rightpart__potter .pottertext .potterview {
           margin-left: 2rem;
           margin-top: 1rem; }
-          .projects .projectsrightpart__potter .pottertext .potterview p {
+          .projects .projects1 .projects1rightpart__potter .pottertext .potterview p {
             position: relative;
             font-size: 1.4rem;
             color: #4c4c4c; }
-            .projects .projectsrightpart__potter .pottertext .potterview p span {
+            .projects .projects1 .projects1rightpart__potter .pottertext .potterview p span {
               position: absolute;
               font-size: 1.5rem;
               color: #ebb240;
               left: -2rem; }
-        .projects .projectsrightpart__potter .pottertext .potterlike {
+        .projects .projects1 .projects1rightpart__potter .pottertext .potterlike {
           margin-left: 5rem;
           margin-top: 2rem;
           margin-bottom: 3rem; }
-          .projects .projectsrightpart__potter .pottertext .potterlike i {
+          .projects .projects1 .projects1rightpart__potter .pottertext .potterlike i {
             font-size: 1.5rem;
             color: #4c4c4c; }
-          .projects .projectsrightpart__potter .pottertext .potterlike p {
+          .projects .projects1 .projects1rightpart__potter .pottertext .potterlike p {
             color: #ec4c4c;
             font-size: 1.3rem; }
-    .projects .projectsrightpart__tabano {
+    .projects .projects1 .projects1rightpart__tabano {
       display: flex;
       flex-direction: column;
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
-      .projects .projectsrightpart__tabano .tabanotext {
+      .projects .projects1 .projects1rightpart__tabano .tabanoname {
+        margin-top: 33rem;
+        margin-left: 4rem; }
+        .projects .projects1 .projects1rightpart__tabano .tabanoname p {
+          font-size: 3rem;
+          color: #4c4c4c; }
+      .projects .projects1 .projects1rightpart__tabano .tabanotext {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 4rem;
+        margin-top: 1rem; }
+        .projects .projects1 .projects1rightpart__tabano .tabanotext .tabanodescribtion p {
+          font-size: 1.5rem;
+          color: #4c4c4c;
+          line-height: 1.5rem; }
+        .projects .projects1 .projects1rightpart__tabano .tabanotext .tabanoview {
+          margin: 0 4rem; }
+          .projects .projects1 .projects1rightpart__tabano .tabanotext .tabanoview p {
+            position: relative;
+            font-size: 1.8rem;
+            color: #4c4c4c; }
+            .projects .projects1 .projects1rightpart__tabano .tabanotext .tabanoview p span {
+              position: absolute;
+              font-size: 2rem;
+              color: #ebb240;
+              left: -2rem; }
+        .projects .projects1 .projects1rightpart__tabano .tabanotext .tabanolike i {
+          font-size: 2rem;
+          color: #4c4c4c; }
+        .projects .projects1 .projects1rightpart__tabano .tabanotext .tabanolike p {
+          color: #ec4c4c;
+          font-size: 1.7rem; }
+    .projects .projects1 .projects1rightpart__fiji {
+      display: flex;
+      flex-direction: column;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .projects .projects1 .projects1rightpart__fiji .fijitext {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        margin-left: 5rem;
-        margin-top: 10rem; }
-        .projects .projectsrightpart__tabano .tabanotext .tabanoname p {
+        margin-left: 27rem;
+        margin-top: 7rem; }
+        .projects .projects1 .projects1rightpart__fiji .fijitext .fijiname p {
+          font-size: 3rem;
+          color: #4c4c4c; }
+        .projects .projects1 .projects1rightpart__fiji .fijitext .fijidescribtion p {
+          font-size: 1.5rem;
+          color: #4c4c4c;
+          line-height: 1.5rem; }
+        .projects .projects1 .projects1rightpart__fiji .fijitext .fijiview {
+          margin-top: 1rem;
+          margin-left: 2rem; }
+          .projects .projects1 .projects1rightpart__fiji .fijitext .fijiview p {
+            position: relative;
+            font-size: 1.8rem;
+            color: #4c4c4c; }
+            .projects .projects1 .projects1rightpart__fiji .fijitext .fijiview p span {
+              position: absolute;
+              font-size: 2rem;
+              color: #ebb240;
+              left: -2rem; }
+        .projects .projects1 .projects1rightpart__fiji .fijitext .fijilike i {
           font-size: 2rem;
-          color: #000000; }
-        .projects .projectsrightpart__tabano .tabanotext .tabanodescribtion p {
-          font-size: 1.5rem;
           color: #4c4c4c; }
-      .projects .projectsrightpart__tabano .tabanodesign {
-        display: flex;
-        flex-direction: column;
-        margin-left: 5rem; }
-        .projects .projectsrightpart__tabano .tabanodesign .tabanoview p {
-          position: relative;
-          font-size: 1.4rem;
-          color: #4c4c4c; }
-          .projects .projectsrightpart__tabano .tabanodesign .tabanoview p span {
-            position: absolute;
-            font-size: 1.5rem;
-            color: #ebb240;
-            left: -2rem; }
-        .projects .projectsrightpart__tabano .tabanodesign .tabanolike i {
-          font-size: 1.5rem;
-          color: #4c4c4c; }
-        .projects .projectsrightpart__tabano .tabanodesign .tabanolike p {
+        .projects .projects1 .projects1rightpart__fiji .fijitext .fijilike p {
           color: #ec4c4c;
-          font-size: 1.3rem; }
+          font-size: 1.7rem; }
+
+.projects .projects2 {
+  display: flex;
+  width: 100%; }
+
+.projects .projectslastrow {
+  display: flex;
+  width: 100%; }
+  .projects .projectslastrow__senann {
+    width: 65%;
+    display: flex; }
+    .projects .projectslastrow__senann .senannname p {
+      color: #4c4c4c;
+      font-size: 2rem; }
+    .projects .projectslastrow__senann .senanntext {
+      display: flex;
+      justify-content: flex-start; }
+      .projects .projectslastrow__senann .senanntext .senanndescribtion p {
+        color: #4c4c4c;
+        font-size: 1.4rem;
+        line-height: 1.5rem; }
+      .projects .projectslastrow__senann .senanntext .senannview p {
+        position: relative;
+        font-size: 1.8rem;
+        color: #4c4c4c; }
+        .projects .projectslastrow__senann .senanntext .senannview p span {
+          position: absolute;
+          font-size: 2rem;
+          color: #ebb240;
+          left: -2rem; }
+      .projects .projectslastrow__senann .senanntext .senannlike i {
+        font-size: 2rem;
+        color: #4c4c4c; }
+      .projects .projectslastrow__senann .senanntext .senannlike p {
+        color: #ec4c4c;
+        font-size: 1.7rem; }
 
 /* pages */

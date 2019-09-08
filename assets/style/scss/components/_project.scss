@@ -1,262 +1,115 @@
 
     .projects{
-        display: flex;
-        width: 100%;
-        height: 50rem;
 
-        .projectsleftpart{
-            width: 72.5%;
-            @include flex(column,'','','','');
-            &__firstrow{
-                width: 100%;
-                display: flex;
-                &--All{
-                    background-color:$yellow;
-                    display: flex;
-                    // width: 38rem;
-                    // height: 38rem;
-                    width: 40%;
-                    position: relative;
-
-                    svg{
-                        position: absolute;
-                        left: 0;
-                    }
-                    .menu{
-                        
-                        @include flex(column,'','','','');                            
-
-                       
-                        // .arrowright{
-                        //     @include flex(column,'','','','');                            
-                        //     margin-top: 7rem;
-                        //     margin-left: 5rem;
-                        //     span{
-                        //         font-size: 2rem;
-                        //         color: $white;
+        .projects1{
+            display: flex;
+            width: 100%;
+            height: 50rem;
     
-                        //     }
-                        // }
-                        .projectitems{
-                            @include flex(column,'','','','');
-                            margin-top: 14rem;
-                            margin-left: 13rem;
-                            line-height: 1.2rem;
-                           
-    
-                            p:first-child{
-                                position: relative;
-                                color: $black;
-                                font-size: 2rem;
-                                span{
-                                    position: absolute;
-                                    font-size: 3rem;
-                                    color: $white;
-                                    left:-3.5rem;
-                                }
-                            }
-                            p{
-                                position: relative;
-                                color:$white;
-                                font-size: 2rem;
-                            }
-                        }
-                        .projectlogo{
-                            // margin-top: 6rem;
-                            // margin-left: 17rem;
-                            p{
-                                color: $white;
-                                font-size: 4rem;
-                                margin-bottom: 7rem;
-                                margin-left: 19rem;
-                                margin-top: 13rem;
-
-                            }
-                        }
-                    }
-                }
-                &--fondue{
-                    width: 60%;
+            .projects1leftpart{
+                width: 64.5%;
+                @include flex(column,'','','','');
+                &__firstrow{
+                    width: 100%;
                     display: flex;
-                    background-position: center;
-                    background-size: contain;
-                    background-repeat: no-repeat;
-
-                    .fonduetext{
-                        width: 60%;
-                        @include flex(column,'','','','');
-                        .fonduename{
-                            margin-top: 5rem;
-                            margin-left: 15rem;
-                            p{
-                                font-size: 3rem;
-                                color: $fonts-title;
-                            }
-                        }
-                        .fonduedescribtion{
-                            @include flex(column,'','','','');
-                            margin-top:8rem;
-                            margin-left:6rem;
-                            p{
-                                font-size: 1.7rem;
-                                color: $footer-color;
-                                line-height: 1.3rem;
-
-                            }
-                        }
-                        .fondueview{
-                            margin-top: 6rem;
-                            margin-left: 15rem;
-
-                            p{
-                                position: relative;
-                                font-size: 1.8rem;
-                                color: $fonts-title;
-                                span{
-                                    position: absolute;
-                                    font-size: 2rem;
-                                    color: $yellow;
-                                    left: -2rem;
-
-
-                                }
-                            }
-                        }
-                        .foundelike{
-                            @include flex(column,'','','','');
-                            padding-top: 10rem;
-                            // padding-left: 18rem;
-                            i{
-                                font-size: 2rem;
-                                color: $fonts-title;
-                                padding-left: 18rem;
-                            }
-                            p{
-                                color: $red;
-                                font-size: 1.7rem;
-                                padding-left: 17rem;
-
-                            }
-                        }
-                    }
-                    fondueimage{
-                        width: 40%;
-                        @include flex(column,'','','','');
-                    }
-                }
-            }
-            &__secondrow{
-                display: flex;
-                width: 100%;
-                &--louis{
-                    display: flex;
-                    flex-direction: column;
-                    width: 35%;
-                    background-position: center;
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    padding-bottom: 10rem;
-                    .louistext{
-                        width: 60%;
-                        @include flex(column,'','','','');
-                        .louisname{
-                            margin-top: 2rem;
-                            margin-left: 3rem;
-                            p{
-                                font-size: 3rem;
-                               color: $white;
-
-                            }
-                        }
-                        .louisdescribtion{
-                            @include flex(column,'','','','');
-                            margin-top:2rem;
-                            p{
-                                font-size: 1.5rem;
-                                color: $white;
-                                line-height: 1.3rem;
-
-                            }
-                        }
-                        .louisview{
-                            margin-top: 5rem;
-                            margin-left: 2rem;
-
-                            p{
-                                position: relative;
-                                font-size: 1.8rem;
-                                color: $white;
-                                span{
-                                    position: absolute;
-                                    font-size: 2rem;
-                                    color: $yellow;
-                                    left: -2rem;
-
-
-                                }
-                            }
-                        }
-                        .louislike{
-                            @include flex(column,'','','','');
-                            // padding-top: 10rem;
-                            // padding-left: 18rem;
-                            i{
-                                font-size: 2rem;
-                                color: $white;
-                                margin-top: 3rem;
-                                margin-left: 6rem;
-                            }
-                            p{
-                                color: $red;
-                                font-size: 1.7rem;
-                                margin-left: 5rem;
-                                margin-bottom: 10rem;
-
-                            }
-                        }
-                    }
-                    .louisimage{
-                        width: 40%;
-                        @include flex(column,'','','','');
-                    }
-                }
-                &--brownchairs{
-                    display: flex;
-                    width:65%;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: cover;
-                    .brownchairstext{
+                    &--All{
+                        background-color:$yellow;
                         display: flex;
-                        .brownchairstext1{
-                            // width:20%;
-                            @include flex (column,flex-start,'','','');
-                            margin-left:28rem;
-                            margin-top:8rem;
-
-                            .brownchairscode{
+                        // width: 38rem;
+                        // height: 38rem;
+                        width: 40%;
+                        position: relative;
+    
+                        svg{
+                            position: absolute;
+                            left: 0;
+                        }
+                        .menu{
+                            
+                            @include flex(column,'','','','');                            
+    
+                           
+                            // .arrowright{
+                            //     @include flex(column,'','','','');                            
+                            //     margin-top: 7rem;
+                            //     margin-left: 5rem;
+                            //     span{
+                            //         font-size: 2rem;
+                            //         color: $white;
+        
+                            //     }
+                            // }
+                            .projectitems{
+                                @include flex(column,'','','','');
+                                margin-top: 20rem;
+                                margin-left: 7rem;
+                                line-height: 1.2rem;
+                               
+        
+                                p:first-child{
+                                    position: relative;
+                                    color: $black;
+                                    font-size: 2rem;
+                                    span{
+                                        position: absolute;
+                                        font-size: 3rem;
+                                        color: $white;
+                                        left:-3.5rem;
+                                    }
+                                }
                                 p{
-                                    font-size: 1.7rem;
+                                    position: relative;
+                                    color:$white;
+                                    font-size: 2rem;
+                                }
+                            }
+                            .projectlogo{
+                                // margin-top: 6rem;
+                                // margin-left: 17rem;
+                                p{
+                                    color: $white;
+                                    font-size: 4rem;
+                                    margin-bottom: 7rem;
+                                    margin-left: 15rem;
+                                    margin-top: 7rem;
+    
+                                }
+                            }
+                        }
+                    }
+                    &--fondue{
+                        width: 60%;
+                        display: flex;
+                        background-position: center;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+    
+                        .fonduetext{
+                            width: 60%;
+                            @include flex(column,'','','','');
+                            .fonduename{
+                                margin-top: 5rem;
+                                margin-left: 15rem;
+                                p{
+                                    font-size: 3rem;
                                     color: $fonts-title;
                                 }
                             }
-                            .brownchairsdescribtion{
+                            .fonduedescribtion{
                                 @include flex(column,'','','','');
+                                margin-top:8rem;
+                                margin-left:6rem;
                                 p{
-                                    font-size:1.5rem;
-                                    color:$fonts-title;
+                                    font-size: 1.7rem;
+                                    color: $footer-color;
+                                    line-height: 1.3rem;
+    
                                 }
                             }
-
-                        }
-                        .brownchairstext2{
-                            @include flex(column,flex-start,'','','');
-                            // width: 20%;
-                            margin-left:6rem;
-                            margin-top:8rem;
-
-                            .brownchairsview{
-                                // @include flex(column,'','','','');
+                            .fondueview{
+                                margin-top: 6rem;
+                                margin-left: 15rem;
+    
                                 p{
                                     position: relative;
                                     font-size: 1.8rem;
@@ -271,10 +124,409 @@
                                     }
                                 }
                             }
-                            .brownchairslike{
-                                // @include flex(column,'','','','');
-                                margin-left:4rem;
-                                margin-top:4rem;
+                            .foundelike{
+                                @include flex(column,'','','','');
+                                padding-top: 10rem;
+                                // padding-left: 18rem;
+                                i{
+                                    font-size: 2rem;
+                                    color: $fonts-title;
+                                    padding-left: 18rem;
+                                }
+                                p{
+                                    color: $red;
+                                    font-size: 1.7rem;
+                                    padding-left: 17rem;
+    
+                                }
+                            }
+                        }
+                        fondueimage{
+                            width: 40%;
+                            @include flex(column,'','','','');
+                        }
+                    }
+                }
+                &__secondrow{
+                    display: flex;
+                    width: 100%;
+                    &--louis{
+                        display: flex;
+                        flex-direction: column;
+                        width: 35%;
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        padding-bottom: 10rem;
+                        .louistext{
+                            width: 60%;
+                            @include flex(column,'','','','');
+                            .louisname{
+                                margin-top: 2rem;
+                                margin-left: 3rem;
+                                p{
+                                    font-size: 3rem;
+                                   color: $white;
+    
+                                }
+                            }
+                            .louisdescribtion{
+                                @include flex(column,'','','','');
+                                margin-top:2rem;
+                                p{
+                                    font-size: 1.5rem;
+                                    color: $white;
+                                    line-height: 1.3rem;
+    
+                                }
+                            }
+                            .louisview{
+                                margin-top: 5rem;
+                                margin-left: 2rem;
+    
+                                p{
+                                    position: relative;
+                                    font-size: 1.8rem;
+                                    color: $white;
+                                    span{
+                                        position: absolute;
+                                        font-size: 2rem;
+                                        color: $yellow;
+                                        left: -2rem;
+    
+    
+                                    }
+                                }
+                            }
+                            .louislike{
+                                @include flex(column,'','','','');
+                                // padding-top: 10rem;
+                                // padding-left: 18rem;
+                                i{
+                                    font-size: 2rem;
+                                    color: $white;
+                                    margin-top: 3rem;
+                                    margin-left: 6rem;
+                                }
+                                p{
+                                    color: $red;
+                                    font-size: 1.7rem;
+                                    margin-left: 5rem;
+                                    margin-bottom: 10rem;
+    
+                                }
+                            }
+                        }
+                        .louisimage{
+                            width: 40%;
+                            @include flex(column,'','','','');
+                        }
+                    }
+                    &--brownchairs{
+                        display: flex;
+                        width:65%;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: cover;
+                        .brownchairstext{
+                            display: flex;
+                            .brownchairstext1{
+                                // width:20%;
+                                @include flex (column,flex-start,'','','');
+                                margin-left:28rem;
+                                margin-top:8rem;
+    
+                                .brownchairscode{
+                                    p{
+                                        font-size: 1.7rem;
+                                        color: $fonts-title;
+                                    }
+                                }
+                                .brownchairsdescribtion{
+                                    @include flex(column,'','','','');
+                                    p{
+                                        font-size:1.5rem;
+                                        color:$fonts-title;
+                                    }
+                                }
+    
+                            }
+                            .brownchairstext2{
+                                @include flex(column,flex-start,'','','');
+                                // width: 20%;
+                                margin-left:6rem;
+                                margin-top:8rem;
+    
+                                .brownchairsview{
+                                    // @include flex(column,'','','','');
+                                    p{
+                                        position: relative;
+                                        font-size: 1.8rem;
+                                        color: $fonts-title;
+                                        span{
+                                            position: absolute;
+                                            font-size: 2rem;
+                                            color: $yellow;
+                                            left: -2rem;
+        
+        
+                                        }
+                                    }
+                                }
+                                .brownchairslike{
+                                    // @include flex(column,'','','','');
+                                    margin-left:4rem;
+                                    margin-top:4rem;
+                                    i{
+                                        font-size: 2rem;
+                                        color: $fonts-title;
+                                        // padding-left: 18rem;
+                                    }
+                                    p{
+                                        color: $red;
+                                        font-size: 1.7rem;
+                                        padding-left:-0.75rem;
+        
+                                    }
+                                }
+    
+                            }
+    
+                        }
+    
+                       
+                    }
+                }
+            }
+    
+    
+    
+    
+            .projects1rightpart{
+                width: 35.5%;
+                @include flex(column,'','','','');
+                // background-color: blue;
+                &__potter{
+                    display:flex;
+                    flex-direction:column;
+                    background-position:center;
+                    background-size:cover;
+                    background-repeat:no-repeat;
+                    // padding-bottom:5rem;
+                    .pottertext{
+                        @include flex(column,flex-start,'','','');
+                        margin-left:3rem;
+                        margin-top:2rem;
+                        .pottername{
+                            p{
+                                font-size:2rem;
+                                color:$black;
+                            }
+                        }
+                        .potterdescribtion{
+                            p{
+                                font-size:1.2rem;
+                                color:$fonts-title;
+                                line-height:1rem;
+                            }
+                        }
+                        .potterview{
+                            margin-left:2rem;
+                            margin-top:1rem;
+                            p{
+                                position: relative;
+                                font-size: 1.4rem;
+                                color: $fonts-title;
+                                span{
+                                    position: absolute;
+                                    font-size: 1.5rem;
+                                    color: $yellow;
+                                    left: -2rem;
+        
+        
+                                }
+                            }
+                        }
+                        .potterlike{
+                            margin-left:5rem;
+                            margin-top:2rem;
+                            margin-bottom:3rem;
+                            i{
+                                font-size: 1.5rem;
+                                color: $fonts-title;
+                                // padding-left: 18rem;
+                            }
+                            p{
+                                color: $red;
+                                font-size: 1.3rem;
+                                // padding-left:-0.75rem;
+        
+                            }
+                        }
+                    }
+    
+                }
+                &__tabano{
+                    display:flex;
+                    flex-direction:column;
+                    background-position:center;
+                    background-size:cover;
+                    background-repeat:no-repeat;
+                   
+                        .tabanoname{
+                            margin-top: 33rem;
+                            margin-left: 4rem;
+                            p{
+                                font-size:3rem;
+                                color: $fonts-title;
+                            }
+                        }
+                       
+                    
+                        .tabanotext{
+                        @include flex('',flex-start,'','','');
+                        margin-left:4rem;
+                        margin-top: 1rem;
+                         .tabanodescribtion{
+                            p{
+                                font-size:1.5rem;
+                                color:$fonts-title;
+                                line-height: 1.5rem;
+                            }
+                        }
+                        .tabanoview{
+                            margin: 0 4rem;
+                            p{
+                                position: relative;
+                                font-size: 1.8rem;
+                                color: $fonts-title;
+                                span{
+                                    position: absolute;
+                                    font-size: 2rem;
+                                    color: $yellow;
+                                    left: -2rem;
+        
+        
+                                }
+                            }
+                        }
+                        .tabanolike{
+                            i{
+                                font-size: 2rem;
+                                color: $fonts-title;
+                                // padding-left: 18rem;
+                            }
+                            p{
+                                color: $red;
+                                font-size: 1.7rem;
+                                // padding-left:-0.75rem;
+        
+                            }
+                        }
+                    }
+                }
+                &__fiji{
+                    display:flex;
+                    flex-direction:column;
+                    background-position:center;
+                    background-size:cover;
+                    background-repeat:no-repeat;
+                   .fijitext{
+                       @include flex(column,flex-start,'','','');
+                       margin-left: 27rem;
+                       margin-top: 7rem;
+                    .fijiname{
+                        p{
+                            font-size:3rem;
+                            color: $fonts-title;
+                        }
+                    }
+                    .fijidescribtion{
+                        p{
+                            font-size:1.5rem;
+                            color:$fonts-title;
+                            line-height: 1.5rem;
+    
+                        }
+                    }
+                    .fijiview{
+                        margin-top: 1rem;
+                        margin-left: 2rem;
+                        p{
+                            position: relative;
+                            font-size: 1.8rem;
+                            color: $fonts-title;
+                            span{
+                                position: absolute;
+                                font-size: 2rem;
+                                color: $yellow;
+                                left: -2rem;
+    
+    
+                            }
+                        }
+                   }
+                   
+                   .fijilike{
+                       i{
+                           font-size: 2rem;
+                           color: $fonts-title;
+                           // padding-left: 18rem;
+                       }
+                       p{
+                           color: $red;
+                           font-size: 1.7rem;
+                           // padding-left:-0.75rem;
+    
+                       }
+                   }
+                }
+                }
+            }
+    
+    
+        }
+        .projects2{
+            display: flex;
+            width: 100%;
+        }
+                .projectslastrow{
+                    display: flex;
+                    width: 100%;
+                    &__senann{
+                        width: 65%;
+                        display: flex;
+                        .senannname{
+                            p{
+                                color:$fonts-title;
+                                font-size:2rem;
+                            }
+                        }
+                        .senanntext{
+                            @include flex('',flex-start,'','','');
+                            .senanndescribtion{
+                                p{
+                                    color: $fonts-title;
+                                    font-size:1.4rem;
+                                    line-height: 1.5rem;
+                                }
+                            }
+                            .senannview{
+                                p{
+                                    position: relative;
+                                    font-size: 1.8rem;
+                                    color: $fonts-title;
+                                    span{
+                                        position: absolute;
+                                        font-size: 2rem;
+                                        color: $yellow;
+                                        left: -2rem;
+            
+            
+                                    }
+                                }
+                            }
+                            .senannlike{
                                 i{
                                     font-size: 2rem;
                                     color: $fonts-title;
@@ -283,142 +535,13 @@
                                 p{
                                     color: $red;
                                     font-size: 1.7rem;
-                                    padding-left:-0.75rem;
-    
+                                    // padding-left:-0.75rem;
+             
                                 }
                             }
-
                         }
-
                     }
-
-                   
+        
                 }
-            }
-        }
-
-
-
-
-        .projectsrightpart{
-            width: 27.5%;
-            @include flex(column,'','','','');
-            // background-color: blue;
-            &__potter{
-                display:flex;
-                flex-direction:column;
-                background-position:center;
-                background-size:cover;
-                background-repeat:no-repeat;
-                // padding-bottom:5rem;
-                .pottertext{
-                    @include flex(column,flex-start,'','','');
-                    margin-left:3rem;
-                    margin-top:2rem;
-                    .pottername{
-                        p{
-                            font-size:2rem;
-                            color:$black;
-                        }
-                    }
-                    .potterdescribtion{
-                        p{
-                            font-size:1.2rem;
-                            color:$fonts-title;
-                            line-height:1rem;
-                        }
-                    }
-                    .potterview{
-                        margin-left:2rem;
-                        margin-top:1rem;
-                        p{
-                            position: relative;
-                            font-size: 1.4rem;
-                            color: $fonts-title;
-                            span{
-                                position: absolute;
-                                font-size: 1.5rem;
-                                color: $yellow;
-                                left: -2rem;
-    
-    
-                            }
-                        }
-                    }
-                    .potterlike{
-                        margin-left:5rem;
-                        margin-top:2rem;
-                        margin-bottom:3rem;
-                        i{
-                            font-size: 1.5rem;
-                            color: $fonts-title;
-                            // padding-left: 18rem;
-                        }
-                        p{
-                            color: $red;
-                            font-size: 1.3rem;
-                            // padding-left:-0.75rem;
-    
-                        }
-                    }
-                }
-
-            }
-            &__tabano{
-                display:flex;
-                flex-direction:column;
-                background-position:center;
-                background-size:cover;
-                background-repeat:no-repeat;
-                .tabanotext{
-                    @include flex(column,flex-start,'','','');
-                    margin-left:5rem;
-                    margin-top:10rem;
-                    .tabanoname{
-                        p{
-                            font-size:2rem;
-                            color:$black;
-                        }
-                    }
-                    .tabanodescribtion{
-                        p{
-                            font-size:1.5rem;
-                            color:$fonts-title;
-                        }
-                    }
-                }
-                .tabanodesign{
-                    @include flex(column,'','','','');
-                    margin-left:5rem;
-                    .tabanoview{
-                        p{
-                            position: relative;
-                            font-size: 1.4rem;
-                            color: $fonts-title;
-                            span{
-                                position: absolute;
-                                font-size: 1.5rem;
-                                color: $yellow;
-                                left: -2rem;
-    
-    
-                            }
-                        }
-                    }
-                    .tabanolike{
-                        i{
-                            font-size: 1.5rem;
-                            color: $fonts-title;
-                            // padding-left: 18rem;
-                        }
-                        p{
-                            color: $red;
-                            font-size: 1.3rem;
-                            // padding-left:-0.75rem;
-    
-                        }
-                    }
-                }
-            }
-        }
     }
+    
