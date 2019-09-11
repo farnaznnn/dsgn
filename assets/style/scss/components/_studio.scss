@@ -1,0 +1,53 @@
+.studio{
+    &__firstrow{
+        display: flex;
+        width: 100%;
+        &--leftpart{
+            display: flex;
+            width: 26%;
+            position: relative;
+            background-color: $light-orange;
+            svg{
+                position: absolute;
+                left: 0;
+            }
+            .studioname{
+                margin-left: 16rem;
+                margin-bottom: 7rem;
+                margin-top: 26rem;
+                p{
+                    color: $white;
+                    font-size: 5rem;
+                }
+            }
+        }
+        &--rightpart{
+            display: flex;
+            width: 74%;
+            .studiodescribtion{
+                @include flex(column,flex-start,'','','');
+                margin-top: 8rem;
+                margin-left: 8rem;
+                .describe1{
+                    margin-bottom: 5rem;
+                    p{
+                    color: $black;
+                    font-weight: 900;
+                    font-size: 1.7rem;
+                    line-height: 1.3rem;
+                    
+                    }
+                }
+                .describe2{
+                    p{
+
+                        color: $black;
+                        font-size: 1.7rem;
+                        line-height: 1.3rem;
+                        
+                    }
+                }
+            }
+        }
+    }
+}

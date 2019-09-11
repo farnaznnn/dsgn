@@ -4,10 +4,10 @@
         .projects1{
             display: flex;
             width: 100%;
-            height: 50rem;
+            // height: 50rem;
     
             .projects1leftpart{
-                width: 64.5%;
+                width: 70%;
                 @include flex(column,'','','','');
                 &__firstrow{
                     width: 100%;
@@ -41,8 +41,8 @@
                             // }
                             .projectitems{
                                 @include flex(column,'','','','');
-                                margin-top: 20rem;
-                                margin-left: 7rem;
+                                margin-top: 17rem;
+                                margin-left: 8rem;
                                 line-height: 1.2rem;
                                
         
@@ -70,8 +70,8 @@
                                     color: $white;
                                     font-size: 4rem;
                                     margin-bottom: 7rem;
-                                    margin-left: 15rem;
-                                    margin-top: 7rem;
+                                    margin-left: 17rem;
+                                    margin-top: 5rem;
     
                                 }
                             }
@@ -303,7 +303,7 @@
     
     
             .projects1rightpart{
-                width: 35.5%;
+                width: 30%;
                 @include flex(column,'','','','');
                 // background-color: blue;
                 &__potter{
@@ -372,30 +372,34 @@
                     background-position:center;
                     background-size:cover;
                     background-repeat:no-repeat;
+                    padding-bottom: 2rem;
                    
                         .tabanoname{
-                            margin-top: 33rem;
+                            margin-top: 35rem;
                             margin-left: 4rem;
                             p{
                                 font-size:3rem;
                                 color: $fonts-title;
                             }
                         }
-                       
-                    
-                        .tabanotext{
-                        @include flex('',flex-start,'','','');
-                        margin-left:4rem;
-                        margin-top: 1rem;
-                         .tabanodescribtion{
+                        .tabanodescribtion{
+                            margin-left: 4rem;
                             p{
                                 font-size:1.5rem;
                                 color:$fonts-title;
                                 line-height: 1.5rem;
                             }
                         }
+                    
+                        // .tabanotext{
+                        // @include flex(column,flex-start,'','','');
+                        // margin-left:2rem;
+                        // margin-top: 1rem;
+                        
                         .tabanoview{
-                            margin: 0 4rem;
+                            margin-top:-10rem;
+                            margin-left:27rem;
+
                             p{
                                 position: relative;
                                 font-size: 1.8rem;
@@ -411,6 +415,8 @@
                             }
                         }
                         .tabanolike{
+                            margin-left:31rem;
+                            margin-top: 2rem;
                             i{
                                 font-size: 2rem;
                                 color: $fonts-title;
@@ -423,12 +429,12 @@
         
                             }
                         }
-                    }
+                    // }
                 }
                 &__fiji{
                     display:flex;
                     flex-direction:column;
-                    background-position:center;
+                    background-position:left;
                     background-size:cover;
                     background-repeat:no-repeat;
                    .fijitext{
@@ -489,59 +495,176 @@
         .projects2{
             display: flex;
             width: 100%;
-        }
-                .projectslastrow{
+            .projectslastrow{
+                display: flex;
+                width: 100%;
+                &__sesann{
+                    width: 47%;
                     display: flex;
-                    width: 100%;
-                    &__senann{
-                        width: 65%;
-                        display: flex;
-                        .senannname{
+                    background-position: left;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    padding-bottom: 2rem;
+                    .sesannname{
+                        margin-top: 22rem;
+                        margin-left: 12rem;
+                        p{
+                            color:$fonts-title;
+                            font-size:2rem;
+                        }
+                    }
+                    .sesanntext{
+                        @include flex('',flex-start,'','','');
+                        margin-top: 27rem;
+                        margin-left: -7rem;
+                        .sesanndescribtion{
+                            p{
+                                font-size:1.5rem;
+                                color: $fonts-title;
+                                line-height: 1.5rem;
+                            }
+                        }
+                        .sesannview{
+                            margin-left: 6rem;
+
+                            p{
+                                position: relative;
+                                font-size: 1.8rem;
+                                color: $fonts-title;
+                                span{
+                                    position: absolute;
+                                    font-size: 2rem;
+                                    color: $yellow;
+                                    left: -2rem;
+        
+        
+                                }
+                            }
+                        }
+                        .sesannlike{
+                            margin-left: 6rem;
+
+                            i{
+                                font-size: 2rem;
+                                color: $fonts-title;
+                                // padding-left: 18rem;
+                            }
+                            p{
+                                color: $red;
+                                font-size: 1.7rem;
+                                // padding-left:-0.75rem;
+         
+                            }
+                        }
+                    }
+                }
+                &__alessi{
+                    width: 23%;
+                    display: flex;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    .alessitext{
+                        @include flex(column,flex-start,'','','');
+                        margin-top: 7rem;
+                        margin-left: 18rem;
+                        .alessiname{
                             p{
                                 color:$fonts-title;
                                 font-size:2rem;
                             }
                         }
-                        .senanntext{
-                            @include flex('',flex-start,'','','');
-                            .senanndescribtion{
-                                p{
-                                    color: $fonts-title;
-                                    font-size:1.4rem;
-                                    line-height: 1.5rem;
-                                }
+                        .alessidescribtion{
+                            margin-top: 1rem;
+                            p{
+                                font-size:1.5rem;
+                                color: $fonts-title;
+                                line-height: 1.5rem;
                             }
-                            .senannview{
-                                p{
-                                    position: relative;
-                                    font-size: 1.8rem;
-                                    color: $fonts-title;
-                                    span{
-                                        position: absolute;
-                                        font-size: 2rem;
-                                        color: $yellow;
-                                        left: -2rem;
-            
-            
-                                    }
-                                }
-                            }
-                            .senannlike{
-                                i{
+                        }
+                        .alessiview{
+                            margin-top: 2rem;
+
+                            p{
+                                position: relative;
+                                font-size: 1.8rem;
+                                color: $fonts-title;
+                                span{
+                                    position: absolute;
                                     font-size: 2rem;
-                                    color: $fonts-title;
-                                    // padding-left: 18rem;
-                                }
-                                p{
-                                    color: $red;
-                                    font-size: 1.7rem;
-                                    // padding-left:-0.75rem;
-             
+                                    color: $yellow;
+                                    left: -2rem;
+        
+        
                                 }
                             }
                         }
+                        .alessilike{
+                            margin-top: 3rem;
+                            margin-left: 3rem;
+
+
+                            i{
+                                font-size: 2rem;
+                                color: $fonts-title;
+                                // padding-left: 18rem;
+                            }
+                            p{
+                                color: $red;
+                                font-size: 1.7rem;
+                                // padding-left:-0.75rem;
+         
+                            }
+                        }
                     }
-        
                 }
+                &__timeline{
+                    width:30%;
+                    display: flex;
+                    background-color: $yellow;
+                    position: relative;
+
+                    svg{
+                        position: absolute;
+                        left: 0;
+                    }
+
+                    .timelinename{
+                        margin-left: 7rem;
+                        margin-top: 4rem;
+                        p{
+
+                            color:$black;
+                            font-size:2rem;
+                        }
+                    }
+                    .timelineyears{
+                        margin-left:-7rem;
+                        margin-top: 8rem;
+                        p:first-child{
+                            position: relative;
+                            // color: $black;
+                            font-size: 2rem;
+                            span{
+                                position: absolute;
+                                font-size: 3rem;
+                                color: $white;
+                                left:-3.5rem;
+                            }
+                        }
+                        p{
+                            position: relative;
+                            color:$white;
+                            font-size: 2rem;
+                            line-height: 1.5rem;
+
+                        } 
+
+                  }
+
+                }
+    
+            }
+        }
     }
     

@@ -258,10 +258,9 @@ body {
 /* components */
 .projects .projects1 {
   display: flex;
-  width: 100%;
-  height: 50rem; }
+  width: 100%; }
   .projects .projects1 .projects1leftpart {
-    width: 64.5%;
+    width: 70%;
     display: flex;
     flex-direction: column; }
     .projects .projects1 .projects1leftpart__firstrow {
@@ -281,8 +280,8 @@ body {
           .projects .projects1 .projects1leftpart__firstrow--All .menu .projectitems {
             display: flex;
             flex-direction: column;
-            margin-top: 20rem;
-            margin-left: 7rem;
+            margin-top: 17rem;
+            margin-left: 8rem;
             line-height: 1.2rem; }
             .projects .projects1 .projects1leftpart__firstrow--All .menu .projectitems p:first-child {
               position: relative;
@@ -301,8 +300,8 @@ body {
             color: #ffffff;
             font-size: 4rem;
             margin-bottom: 7rem;
-            margin-left: 15rem;
-            margin-top: 7rem; }
+            margin-left: 17rem;
+            margin-top: 5rem; }
       .projects .projects1 .projects1leftpart__firstrow--fondue {
         width: 60%;
         display: flex;
@@ -463,7 +462,7 @@ body {
                 font-size: 1.7rem;
                 padding-left: -0.75rem; }
   .projects .projects1 .projects1rightpart {
-    width: 35.5%;
+    width: 30%;
     display: flex;
     flex-direction: column; }
     .projects .projects1 .projects1rightpart__potter {
@@ -512,43 +511,45 @@ body {
       flex-direction: column;
       background-position: center;
       background-size: cover;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      padding-bottom: 2rem; }
       .projects .projects1 .projects1rightpart__tabano .tabanoname {
-        margin-top: 33rem;
+        margin-top: 35rem;
         margin-left: 4rem; }
         .projects .projects1 .projects1rightpart__tabano .tabanoname p {
           font-size: 3rem;
           color: #4c4c4c; }
-      .projects .projects1 .projects1rightpart__tabano .tabanotext {
-        display: flex;
-        justify-content: flex-start;
-        margin-left: 4rem;
-        margin-top: 1rem; }
-        .projects .projects1 .projects1rightpart__tabano .tabanotext .tabanodescribtion p {
+      .projects .projects1 .projects1rightpart__tabano .tabanodescribtion {
+        margin-left: 4rem; }
+        .projects .projects1 .projects1rightpart__tabano .tabanodescribtion p {
           font-size: 1.5rem;
           color: #4c4c4c;
           line-height: 1.5rem; }
-        .projects .projects1 .projects1rightpart__tabano .tabanotext .tabanoview {
-          margin: 0 4rem; }
-          .projects .projects1 .projects1rightpart__tabano .tabanotext .tabanoview p {
-            position: relative;
-            font-size: 1.8rem;
-            color: #4c4c4c; }
-            .projects .projects1 .projects1rightpart__tabano .tabanotext .tabanoview p span {
-              position: absolute;
-              font-size: 2rem;
-              color: #ebb240;
-              left: -2rem; }
-        .projects .projects1 .projects1rightpart__tabano .tabanotext .tabanolike i {
+      .projects .projects1 .projects1rightpart__tabano .tabanoview {
+        margin-top: -10rem;
+        margin-left: 27rem; }
+        .projects .projects1 .projects1rightpart__tabano .tabanoview p {
+          position: relative;
+          font-size: 1.8rem;
+          color: #4c4c4c; }
+          .projects .projects1 .projects1rightpart__tabano .tabanoview p span {
+            position: absolute;
+            font-size: 2rem;
+            color: #ebb240;
+            left: -2rem; }
+      .projects .projects1 .projects1rightpart__tabano .tabanolike {
+        margin-left: 31rem;
+        margin-top: 2rem; }
+        .projects .projects1 .projects1rightpart__tabano .tabanolike i {
           font-size: 2rem;
           color: #4c4c4c; }
-        .projects .projects1 .projects1rightpart__tabano .tabanotext .tabanolike p {
+        .projects .projects1 .projects1rightpart__tabano .tabanolike p {
           color: #ec4c4c;
           font-size: 1.7rem; }
     .projects .projects1 .projects1rightpart__fiji {
       display: flex;
       flex-direction: column;
-      background-position: center;
+      background-position: left;
       background-size: cover;
       background-repeat: no-repeat; }
       .projects .projects1 .projects1rightpart__fiji .fijitext {
@@ -586,37 +587,159 @@ body {
 .projects .projects2 {
   display: flex;
   width: 100%; }
+  .projects .projects2 .projectslastrow {
+    display: flex;
+    width: 100%; }
+    .projects .projects2 .projectslastrow__sesann {
+      width: 47%;
+      display: flex;
+      background-position: left;
+      background-size: contain;
+      background-repeat: no-repeat;
+      padding-bottom: 2rem; }
+      .projects .projects2 .projectslastrow__sesann .sesannname {
+        margin-top: 22rem;
+        margin-left: 12rem; }
+        .projects .projects2 .projectslastrow__sesann .sesannname p {
+          color: #4c4c4c;
+          font-size: 2rem; }
+      .projects .projects2 .projectslastrow__sesann .sesanntext {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 27rem;
+        margin-left: -7rem; }
+        .projects .projects2 .projectslastrow__sesann .sesanntext .sesanndescribtion p {
+          font-size: 1.5rem;
+          color: #4c4c4c;
+          line-height: 1.5rem; }
+        .projects .projects2 .projectslastrow__sesann .sesanntext .sesannview {
+          margin-left: 6rem; }
+          .projects .projects2 .projectslastrow__sesann .sesanntext .sesannview p {
+            position: relative;
+            font-size: 1.8rem;
+            color: #4c4c4c; }
+            .projects .projects2 .projectslastrow__sesann .sesanntext .sesannview p span {
+              position: absolute;
+              font-size: 2rem;
+              color: #ebb240;
+              left: -2rem; }
+        .projects .projects2 .projectslastrow__sesann .sesanntext .sesannlike {
+          margin-left: 6rem; }
+          .projects .projects2 .projectslastrow__sesann .sesanntext .sesannlike i {
+            font-size: 2rem;
+            color: #4c4c4c; }
+          .projects .projects2 .projectslastrow__sesann .sesanntext .sesannlike p {
+            color: #ec4c4c;
+            font-size: 1.7rem; }
+    .projects .projects2 .projectslastrow__alessi {
+      width: 23%;
+      display: flex;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .projects .projects2 .projectslastrow__alessi .alessitext {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: 7rem;
+        margin-left: 18rem; }
+        .projects .projects2 .projectslastrow__alessi .alessitext .alessiname p {
+          color: #4c4c4c;
+          font-size: 2rem; }
+        .projects .projects2 .projectslastrow__alessi .alessitext .alessidescribtion {
+          margin-top: 1rem; }
+          .projects .projects2 .projectslastrow__alessi .alessitext .alessidescribtion p {
+            font-size: 1.5rem;
+            color: #4c4c4c;
+            line-height: 1.5rem; }
+        .projects .projects2 .projectslastrow__alessi .alessitext .alessiview {
+          margin-top: 2rem; }
+          .projects .projects2 .projectslastrow__alessi .alessitext .alessiview p {
+            position: relative;
+            font-size: 1.8rem;
+            color: #4c4c4c; }
+            .projects .projects2 .projectslastrow__alessi .alessitext .alessiview p span {
+              position: absolute;
+              font-size: 2rem;
+              color: #ebb240;
+              left: -2rem; }
+        .projects .projects2 .projectslastrow__alessi .alessitext .alessilike {
+          margin-top: 3rem;
+          margin-left: 3rem; }
+          .projects .projects2 .projectslastrow__alessi .alessitext .alessilike i {
+            font-size: 2rem;
+            color: #4c4c4c; }
+          .projects .projects2 .projectslastrow__alessi .alessitext .alessilike p {
+            color: #ec4c4c;
+            font-size: 1.7rem; }
+    .projects .projects2 .projectslastrow__timeline {
+      width: 30%;
+      display: flex;
+      background-color: #ebb240;
+      position: relative; }
+      .projects .projects2 .projectslastrow__timeline svg {
+        position: absolute;
+        left: 0; }
+      .projects .projects2 .projectslastrow__timeline .timelinename {
+        margin-left: 7rem;
+        margin-top: 4rem; }
+        .projects .projects2 .projectslastrow__timeline .timelinename p {
+          color: #000000;
+          font-size: 2rem; }
+      .projects .projects2 .projectslastrow__timeline .timelineyears {
+        margin-left: -7rem;
+        margin-top: 8rem; }
+        .projects .projects2 .projectslastrow__timeline .timelineyears p:first-child {
+          position: relative;
+          font-size: 2rem; }
+          .projects .projects2 .projectslastrow__timeline .timelineyears p:first-child span {
+            position: absolute;
+            font-size: 3rem;
+            color: #ffffff;
+            left: -3.5rem; }
+        .projects .projects2 .projectslastrow__timeline .timelineyears p {
+          position: relative;
+          color: #ffffff;
+          font-size: 2rem;
+          line-height: 1.5rem; }
 
-.projects .projectslastrow {
+.studio__firstrow {
   display: flex;
   width: 100%; }
-  .projects .projectslastrow__senann {
-    width: 65%;
-    display: flex; }
-    .projects .projectslastrow__senann .senannname p {
-      color: #4c4c4c;
-      font-size: 2rem; }
-    .projects .projectslastrow__senann .senanntext {
+  .studio__firstrow--leftpart {
+    display: flex;
+    width: 26%;
+    position: relative;
+    background-color: #ff9b6d; }
+    .studio__firstrow--leftpart svg {
+      position: absolute;
+      left: 0; }
+    .studio__firstrow--leftpart .studioname {
+      margin-left: 16rem;
+      margin-bottom: 7rem;
+      margin-top: 26rem; }
+      .studio__firstrow--leftpart .studioname p {
+        color: #ffffff;
+        font-size: 5rem; }
+  .studio__firstrow--rightpart {
+    display: flex;
+    width: 74%; }
+    .studio__firstrow--rightpart .studiodescribtion {
       display: flex;
-      justify-content: flex-start; }
-      .projects .projectslastrow__senann .senanntext .senanndescribtion p {
-        color: #4c4c4c;
-        font-size: 1.4rem;
-        line-height: 1.5rem; }
-      .projects .projectslastrow__senann .senanntext .senannview p {
-        position: relative;
-        font-size: 1.8rem;
-        color: #4c4c4c; }
-        .projects .projectslastrow__senann .senanntext .senannview p span {
-          position: absolute;
-          font-size: 2rem;
-          color: #ebb240;
-          left: -2rem; }
-      .projects .projectslastrow__senann .senanntext .senannlike i {
-        font-size: 2rem;
-        color: #4c4c4c; }
-      .projects .projectslastrow__senann .senanntext .senannlike p {
-        color: #ec4c4c;
-        font-size: 1.7rem; }
+      justify-content: flex-start;
+      flex-direction: column;
+      margin-top: 8rem;
+      margin-left: 8rem; }
+      .studio__firstrow--rightpart .studiodescribtion .describe1 {
+        margin-bottom: 5rem; }
+        .studio__firstrow--rightpart .studiodescribtion .describe1 p {
+          color: #000000;
+          font-weight: 900;
+          font-size: 1.7rem;
+          line-height: 1.3rem; }
+      .studio__firstrow--rightpart .studiodescribtion .describe2 p {
+        color: #000000;
+        font-size: 1.7rem;
+        line-height: 1.3rem; }
 
 /* pages */
