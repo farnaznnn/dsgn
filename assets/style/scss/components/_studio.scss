@@ -1,10 +1,11 @@
 .studio{
+    background-color: $back-color;
     &__firstrow{
         display: flex;
         width: 100%;
         &--leftpart{
             display: flex;
-            width: 26%;
+            width: 31%;
             position: relative;
             background-color: $light-orange;
             svg{
@@ -12,7 +13,7 @@
                 left: 0;
             }
             .studioname{
-                margin-left: 16rem;
+                margin-left: 20rem;
                 margin-bottom: 7rem;
                 margin-top: 26rem;
                 p{
@@ -23,7 +24,7 @@
         }
         &--rightpart{
             display: flex;
-            width: 74%;
+            width: 69%;
             .studiodescribtion{
                 @include flex(column,flex-start,'','','');
                 margin-top: 8rem;
@@ -31,7 +32,7 @@
                 .describe1{
                     margin-bottom: 5rem;
                     p{
-                    color: $black;
+                    color: $fonts-title;
                     font-weight: 900;
                     font-size: 1.7rem;
                     line-height: 1.3rem;
@@ -41,12 +42,168 @@
                 .describe2{
                     p{
 
-                        color: $black;
+                        color: $fonts-title;
                         font-size: 1.7rem;
                         line-height: 1.3rem;
                         
                     }
                 }
+            }
+            .studioawards{                
+                @include flex(column,flex-start,'','','');
+                margin-top: 8rem;
+                margin-left: 10rem;
+                .awardsimage{
+                    img{
+                        margin-bottom: 5rem;
+                    }
+                }
+                .awardsname{
+                    border-bottom: 1px solid $border-color;
+                    p{
+                        font-size: 1.7rem;
+                        color: $fonts-title;
+                        font-weight: 900;
+                    }
+                }
+                .awardsdescribtion{
+                    @include flex('','','','','');
+                    margin-top: 3rem;
+                    .describe1{
+                        @include flex(column,'','','','');
+                        p{
+                            font-size: 1.7rem;
+                            color: $fonts-title;
+                            line-height: 1.5rem;
+                            font-weight: 900;
+                        }
+                    }
+                    .describe2{
+                        @include flex(column,'','','','');
+                        margin-left: 9rem;
+                        p{
+                            font-size: 1.7rem;
+                            color: $fonts-title;
+                            line-height: 1.5rem;
+                            font-weight: 900;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__secondrow{
+        display: flex;
+        width: 100%;
+        &--leftpart{
+            width: 31%;
+            @include flex(column,flex-start,'','','');
+            .staff{
+                margin-left:7rem;
+                margin-top: 5rem;
+                .staffname{
+                    p{
+                        color: $fonts-title;
+                        font-size: 1.7rem;
+                    }
+                }
+                .staffdescribtion{
+                    margin-top: 2rem;
+                    p{
+                        color: $fonts-title;
+                        font-size: 1.7rem;
+                        line-height: 1.5rem;
+                    }
+                }
+            }
+        }
+        &--rightpart{
+            width: 69%;
+            display:flex;
+            .philippe{
+                // @include flex(column,flex-start,'','','');
+                margin-top:6rem;
+                margin-left:1rem;
+                .philippeimage{
+                    margin-bottom: 2rem;
+                }
+                .philippeintroduction{
+                    @include flex(column,flex-start,'','','');
+                    
+                        p:first-child{
+                            font-size:1.7rem;
+                            color:$fonts-title;
+                            font-weight:900;
+                        }
+                                        
+                        p{
+                            font-size:1.7rem;
+                            color:$fonts-title;
+                            line-height:1.5rem;
+                        }
+                }
+                .signs{
+                    display:flex;
+                    width:100%;
+                    margin-top:2rem;
+                    justify-content:space-between;
+                    &__left{
+                        @include flex('',flex-start,'','','');
+                        width:20%;
+                        .cv{
+                            p{
+                                position: relative;
+                                font-size:3rem;
+                                color: $light-orange;
+                                font-weight:900;
+
+                                span{
+                                    position:absolute;
+                                    font-size:3rem;
+                                    color:$light-orange;
+                                    font-weight:900;
+                                }
+                            }
+                    }
+                    }
+                    &__right{
+                        @include flex('',flex-end,'','','');
+                        width:60%;
+                        
+                        .facebook{
+                            margin-right:1rem;
+                            i{
+                                font-size:1.7rem;
+                                color:$light-orange;
+                            }
+                        }
+                        .twitter{
+                            margin-right:1rem;
+
+                            i{
+                                font-size:1.7rem;
+                                color:$light-orange;
+                            }
+                        }
+                        .linkedin{
+                            margin-right:1rem;
+
+                            i{
+                                font-size:1.7rem;
+                                color:$light-orange;
+                            }
+                        }
+                        .googleplus{
+                            i{
+                                font-size:1.7rem;
+                                color:$light-orange;
+                            }
+                        }
+                    }
+               
+
+                }
+
             }
         }
     }

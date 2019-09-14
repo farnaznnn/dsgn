@@ -703,43 +703,160 @@ body {
           font-size: 2rem;
           line-height: 1.5rem; }
 
-.studio__firstrow {
-  display: flex;
-  width: 100%; }
-  .studio__firstrow--leftpart {
+.studio {
+  background-color: #e9eae2; }
+  .studio__firstrow {
     display: flex;
-    width: 26%;
-    position: relative;
-    background-color: #ff9b6d; }
-    .studio__firstrow--leftpart svg {
-      position: absolute;
-      left: 0; }
-    .studio__firstrow--leftpart .studioname {
-      margin-left: 16rem;
-      margin-bottom: 7rem;
-      margin-top: 26rem; }
-      .studio__firstrow--leftpart .studioname p {
-        color: #ffffff;
-        font-size: 5rem; }
-  .studio__firstrow--rightpart {
-    display: flex;
-    width: 74%; }
-    .studio__firstrow--rightpart .studiodescribtion {
+    width: 100%; }
+    .studio__firstrow--leftpart {
       display: flex;
-      justify-content: flex-start;
-      flex-direction: column;
-      margin-top: 8rem;
-      margin-left: 8rem; }
-      .studio__firstrow--rightpart .studiodescribtion .describe1 {
-        margin-bottom: 5rem; }
-        .studio__firstrow--rightpart .studiodescribtion .describe1 p {
-          color: #000000;
-          font-weight: 900;
+      width: 31%;
+      position: relative;
+      background-color: #ff9b6d; }
+      .studio__firstrow--leftpart svg {
+        position: absolute;
+        left: 0; }
+      .studio__firstrow--leftpart .studioname {
+        margin-left: 20rem;
+        margin-bottom: 7rem;
+        margin-top: 26rem; }
+        .studio__firstrow--leftpart .studioname p {
+          color: #ffffff;
+          font-size: 5rem; }
+    .studio__firstrow--rightpart {
+      display: flex;
+      width: 69%; }
+      .studio__firstrow--rightpart .studiodescribtion {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: 8rem;
+        margin-left: 8rem; }
+        .studio__firstrow--rightpart .studiodescribtion .describe1 {
+          margin-bottom: 5rem; }
+          .studio__firstrow--rightpart .studiodescribtion .describe1 p {
+            color: #4c4c4c;
+            font-weight: 900;
+            font-size: 1.7rem;
+            line-height: 1.3rem; }
+        .studio__firstrow--rightpart .studiodescribtion .describe2 p {
+          color: #4c4c4c;
           font-size: 1.7rem;
           line-height: 1.3rem; }
-      .studio__firstrow--rightpart .studiodescribtion .describe2 p {
-        color: #000000;
-        font-size: 1.7rem;
-        line-height: 1.3rem; }
+      .studio__firstrow--rightpart .studioawards {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: 8rem;
+        margin-left: 10rem; }
+        .studio__firstrow--rightpart .studioawards .awardsimage img {
+          margin-bottom: 5rem; }
+        .studio__firstrow--rightpart .studioawards .awardsname {
+          border-bottom: 1px solid #aeaeae; }
+          .studio__firstrow--rightpart .studioawards .awardsname p {
+            font-size: 1.7rem;
+            color: #4c4c4c;
+            font-weight: 900; }
+        .studio__firstrow--rightpart .studioawards .awardsdescribtion {
+          display: flex;
+          margin-top: 3rem; }
+          .studio__firstrow--rightpart .studioawards .awardsdescribtion .describe1 {
+            display: flex;
+            flex-direction: column; }
+            .studio__firstrow--rightpart .studioawards .awardsdescribtion .describe1 p {
+              font-size: 1.7rem;
+              color: #4c4c4c;
+              line-height: 1.5rem;
+              font-weight: 900; }
+          .studio__firstrow--rightpart .studioawards .awardsdescribtion .describe2 {
+            display: flex;
+            flex-direction: column;
+            margin-left: 9rem; }
+            .studio__firstrow--rightpart .studioawards .awardsdescribtion .describe2 p {
+              font-size: 1.7rem;
+              color: #4c4c4c;
+              line-height: 1.5rem;
+              font-weight: 900; }
+  .studio__secondrow {
+    display: flex;
+    width: 100%; }
+    .studio__secondrow--leftpart {
+      width: 31%;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column; }
+      .studio__secondrow--leftpart .staff {
+        margin-left: 7rem;
+        margin-top: 5rem; }
+        .studio__secondrow--leftpart .staff .staffname p {
+          color: #4c4c4c;
+          font-size: 1.7rem; }
+        .studio__secondrow--leftpart .staff .staffdescribtion {
+          margin-top: 2rem; }
+          .studio__secondrow--leftpart .staff .staffdescribtion p {
+            color: #4c4c4c;
+            font-size: 1.7rem;
+            line-height: 1.5rem; }
+    .studio__secondrow--rightpart {
+      width: 69%;
+      display: flex; }
+      .studio__secondrow--rightpart .philippe {
+        margin-top: 6rem;
+        margin-left: 1rem; }
+        .studio__secondrow--rightpart .philippe .philippeimage {
+          margin-bottom: 2rem; }
+        .studio__secondrow--rightpart .philippe .philippeintroduction {
+          display: flex;
+          justify-content: flex-start;
+          flex-direction: column; }
+          .studio__secondrow--rightpart .philippe .philippeintroduction p:first-child {
+            font-size: 1.7rem;
+            color: #4c4c4c;
+            font-weight: 900; }
+          .studio__secondrow--rightpart .philippe .philippeintroduction p {
+            font-size: 1.7rem;
+            color: #4c4c4c;
+            line-height: 1.5rem; }
+        .studio__secondrow--rightpart .philippe .signs {
+          display: flex;
+          width: 100%;
+          margin-top: 2rem;
+          justify-content: space-between; }
+          .studio__secondrow--rightpart .philippe .signs__left {
+            display: flex;
+            justify-content: flex-start;
+            width: 20%; }
+            .studio__secondrow--rightpart .philippe .signs__left .cv p {
+              position: relative;
+              font-size: 3rem;
+              color: #ff9b6d;
+              font-weight: 900; }
+              .studio__secondrow--rightpart .philippe .signs__left .cv p span {
+                position: absolute;
+                font-size: 3rem;
+                color: #ff9b6d;
+                font-weight: 900; }
+          .studio__secondrow--rightpart .philippe .signs__right {
+            display: flex;
+            justify-content: flex-end;
+            width: 60%; }
+            .studio__secondrow--rightpart .philippe .signs__right .facebook {
+              margin-right: 1rem; }
+              .studio__secondrow--rightpart .philippe .signs__right .facebook i {
+                font-size: 1.7rem;
+                color: #ff9b6d; }
+            .studio__secondrow--rightpart .philippe .signs__right .twitter {
+              margin-right: 1rem; }
+              .studio__secondrow--rightpart .philippe .signs__right .twitter i {
+                font-size: 1.7rem;
+                color: #ff9b6d; }
+            .studio__secondrow--rightpart .philippe .signs__right .linkedin {
+              margin-right: 1rem; }
+              .studio__secondrow--rightpart .philippe .signs__right .linkedin i {
+                font-size: 1.7rem;
+                color: #ff9b6d; }
+            .studio__secondrow--rightpart .philippe .signs__right .googleplus i {
+              font-size: 1.7rem;
+              color: #ff9b6d; }
 
 /* pages */
