@@ -255,6 +255,72 @@ body {
         font-size: 1.7rem;
         line-height: 1.5rem; }
 
+.footersection {
+  display: flex;
+  width: 100%; }
+  .footersection__left {
+    width: 50%;
+    background-color: red; }
+  .footersection__right {
+    width: 50%;
+    display: flex;
+    background-color: #e9eae2;
+    flex-direction: column; }
+    .footersection__right--firstrow {
+      display: flex;
+      width: 100%; }
+      .footersection__right--firstrow .footeraddress {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-left: 13rem;
+        margin-top: 12rem; }
+        .footersection__right--firstrow .footeraddress .footeraddress1 {
+          margin-bottom: 1rem; }
+          .footersection__right--firstrow .footeraddress .footeraddress1 p {
+            color: #4c4c4c;
+            font-size: 1.7rem;
+            line-height: 1.5rem; }
+        .footersection__right--firstrow .footeraddress .footeraddress2 p {
+          color: #4c4c4c;
+          font-size: 1.7rem;
+          line-height: 1.5rem; }
+      .footersection__right--firstrow .footerdesign {
+        margin-left: 12rem;
+        margin-top: 12rem;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column; }
+        .footersection__right--firstrow .footerdesign .Logo image {
+          margin: 1.5rem;
+          width: 2rem;
+          height: 2rem; }
+        .footersection__right--firstrow .footerdesign .items {
+          margin-bottom: 4rem; }
+          .footersection__right--firstrow .footerdesign .items p {
+            font-size: 2rem;
+            color: #000000;
+            line-height: 2rem; }
+        .footersection__right--firstrow .footerdesign .fonticons {
+          color: #00bfd6;
+          font-size: 2.5rem;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .footersection__right--firstrow .footerdesign .fonticons i {
+            margin: 0.5rem; }
+    .footersection__right--secondrow {
+      display: flex;
+      width: 100%;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end; }
+      .footersection__right--secondrow .copyright p {
+        font-size: 1.7rem;
+        color: #000000; }
+
 /* components */
 .projects .projects1 {
   display: flex;
@@ -969,5 +1035,88 @@ body {
             .studio__secondrow--rightpart .patricia .signs__right .googleplus i {
               font-size: 1.7rem;
               color: #ff9b6d; }
+
+.news {
+  display: flex;
+  width: 100%; }
+  .news__leftpart {
+    width: 31%;
+    background-color: #d4edbf;
+    position: relative; }
+    .news__leftpart svg {
+      position: absolute;
+      left: 0; }
+    .news__leftpart p {
+      font-size: 5rem;
+      color: #ffffff;
+      margin-left: 20rem;
+      margin-bottom: 7rem;
+      margin-top: 26rem; }
+  .news__rightpart {
+    display: flex;
+    width: 69%;
+    background-color: #ececec; }
+    .news__rightpart .mauris {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      margin-top: 5rem;
+      margin-left: 8rem; }
+      .news__rightpart .mauris .mauristitle p {
+        font-size: 3rem;
+        color: #000000;
+        line-height: 2.5rem; }
+      .news__rightpart .mauris .maurisdate {
+        margin-bottom: 2rem; }
+        .news__rightpart .mauris .maurisdate p {
+          font-size: 1.5rem;
+          color: #4c4c4c; }
+      .news__rightpart .mauris .maurisimage {
+        margin-bottom: 2rem; }
+      .news__rightpart .mauris .mauriscomment {
+        margin-bottom: 2rem; }
+        .news__rightpart .mauris .mauriscomment p {
+          font-size: 1.5rem;
+          line-height: 1.5rem;
+          color: #4c4c4c; }
+      .news__rightpart .mauris .morecomment p {
+        font-size: 1.7rem;
+        font-weight: 900;
+        color: #ff9b6d;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end; }
+    .news__rightpart .proin {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      margin-top: 5rem;
+      margin-left: 2rem; }
+      .news__rightpart .proin .prointitle {
+        margin-bottom: 2.3rem; }
+        .news__rightpart .proin .prointitle p {
+          font-size: 3rem;
+          color: #000000;
+          line-height: 2.5rem; }
+      .news__rightpart .proin .proindate {
+        margin-bottom: 2rem; }
+        .news__rightpart .proin .proindate p {
+          font-size: 1.5rem;
+          color: #4c4c4c; }
+      .news__rightpart .proin .proinimage {
+        margin-bottom: 2rem; }
+      .news__rightpart .proin .proincomment {
+        margin-bottom: 3.7rem; }
+        .news__rightpart .proin .proincomment p {
+          font-size: 1.5rem;
+          line-height: 1.5rem;
+          color: #4c4c4c; }
+      .news__rightpart .proin .morecomment p {
+        font-size: 1.7rem;
+        font-weight: 900;
+        color: #ff9b6d;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end; }
 
 /* pages */

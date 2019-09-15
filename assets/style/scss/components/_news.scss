@@ -1,0 +1,117 @@
+.news{
+    display:flex;
+    width:100%;
+    &__leftpart{
+        width: 31%;
+        background-color: $light-green;
+        position: relative;
+        svg{
+            position: absolute;
+            left:0;
+
+        }
+        p{
+            font-size:5rem;
+            color:$white;
+            margin-left: 20rem;
+            margin-bottom: 7rem;
+            margin-top: 26rem;
+        }
+    }
+    &__rightpart{
+        display:flex;
+        width:69%;
+        background-color: $title-shadow;
+        .mauris{
+            @include flex(column,flex-start,'','','');
+            
+            margin-top:5rem;
+            margin-left:8rem;
+            .mauristitle{
+                p{
+                    font-size:3rem;
+                    // font-weight:900;
+                    color:$black;
+                    line-height:2.5rem;
+                }
+            }
+            .maurisdate{
+                margin-bottom:2rem;
+                p{
+
+                    font-size: 1.5rem;
+                    color:$fonts-title;
+                }
+            }
+            .maurisimage{
+                margin-bottom:2rem;
+            }
+            .mauriscomment{
+                margin-bottom:2rem;
+               p{
+                font-size:1.5rem;
+                line-height:1.5rem;
+                color:$fonts-title;
+               }
+            }
+            .morecomment{
+
+                p{
+
+                    font-size: 1.7rem;
+                    font-weight:900;
+                    color:$light-orange;
+                    width: 100% ;
+                    display:flex;
+                    justify-content:flex-end;
+                }
+            }
+        }
+        .proin{
+            @include flex(column,flex-start,'','','');
+            
+            margin-top:5rem;
+            margin-left:2rem;
+            .prointitle{
+                margin-bottom: 2.3rem;
+                p{
+                    font-size:3rem;
+                    // font-weight:900;
+                    color:$black;
+                    line-height:2.5rem;
+                }
+            }
+            .proindate{
+                margin-bottom:2rem;
+                p{
+
+                    font-size: 1.5rem;
+                    color:$fonts-title;
+                }
+            }
+            .proinimage{
+                margin-bottom:2rem;
+            }
+            .proincomment{
+                margin-bottom:3.7rem;
+               p{
+                font-size:1.5rem;
+                line-height:1.5rem;
+                color:$fonts-title;
+               }
+            }
+            .morecomment{
+
+                p{
+
+                    font-size: 1.7rem;
+                    font-weight:900;
+                    color:$light-orange;
+                    width: 100% ;
+                    display:flex;
+                    justify-content:flex-end;
+                }
+            }
+        }
+    }
+}
