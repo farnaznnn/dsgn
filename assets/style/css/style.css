@@ -826,16 +826,16 @@ body {
             display: flex;
             justify-content: flex-start;
             width: 20%; }
-            .studio__secondrow--rightpart .philippe .signs__left .cv p {
-              position: relative;
-              font-size: 3rem;
-              color: #ff9b6d;
-              font-weight: 900; }
-              .studio__secondrow--rightpart .philippe .signs__left .cv p span {
-                position: absolute;
+            .studio__secondrow--rightpart .philippe .signs__left .cv {
+              display: flex; }
+              .studio__secondrow--rightpart .philippe .signs__left .cv p {
                 font-size: 3rem;
                 color: #ff9b6d;
                 font-weight: 900; }
+                .studio__secondrow--rightpart .philippe .signs__left .cv p i {
+                  font-size: 3rem;
+                  color: #ff9b6d;
+                  font-weight: 900; }
           .studio__secondrow--rightpart .philippe .signs__right {
             display: flex;
             justify-content: flex-end;
@@ -856,6 +856,117 @@ body {
                 font-size: 1.7rem;
                 color: #ff9b6d; }
             .studio__secondrow--rightpart .philippe .signs__right .googleplus i {
+              font-size: 1.7rem;
+              color: #ff9b6d; }
+      .studio__secondrow--rightpart .mario {
+        margin-top: 6rem;
+        margin-left: 3rem; }
+        .studio__secondrow--rightpart .mario .marioimage {
+          margin-bottom: 2rem; }
+        .studio__secondrow--rightpart .mario .mariointroduction {
+          display: flex;
+          justify-content: flex-start;
+          flex-direction: column; }
+          .studio__secondrow--rightpart .mario .mariointroduction p:first-child {
+            font-size: 1.7rem;
+            color: #4c4c4c;
+            font-weight: 900; }
+          .studio__secondrow--rightpart .mario .mariointroduction p {
+            font-size: 1.7rem;
+            color: #4c4c4c;
+            line-height: 1.5rem; }
+        .studio__secondrow--rightpart .mario .signs {
+          display: flex;
+          width: 100%;
+          margin-top: 2rem;
+          justify-content: space-between; }
+          .studio__secondrow--rightpart .mario .signs__left {
+            display: flex;
+            justify-content: flex-start;
+            width: 20%; }
+            .studio__secondrow--rightpart .mario .signs__left .cv p {
+              font-size: 3rem;
+              color: #ff9b6d;
+              font-weight: 900; }
+              .studio__secondrow--rightpart .mario .signs__left .cv p i {
+                font-size: 3rem;
+                color: #ff9b6d;
+                font-weight: 900; }
+          .studio__secondrow--rightpart .mario .signs__right {
+            display: flex;
+            justify-content: flex-end;
+            width: 60%; }
+            .studio__secondrow--rightpart .mario .signs__right .facebook {
+              margin-right: 1rem; }
+              .studio__secondrow--rightpart .mario .signs__right .facebook i {
+                font-size: 1.7rem;
+                color: #ff9b6d; }
+            .studio__secondrow--rightpart .mario .signs__right .twitter {
+              margin-right: 1rem; }
+              .studio__secondrow--rightpart .mario .signs__right .twitter i {
+                font-size: 1.7rem;
+                color: #ff9b6d; }
+            .studio__secondrow--rightpart .mario .signs__right .linkedin {
+              margin-right: 1rem; }
+              .studio__secondrow--rightpart .mario .signs__right .linkedin i {
+                font-size: 1.7rem;
+                color: #ff9b6d; }
+            .studio__secondrow--rightpart .mario .signs__right .googleplus i {
+              font-size: 1.7rem;
+              color: #ff9b6d; }
+      .studio__secondrow--rightpart .patricia {
+        margin-top: 6rem;
+        margin-left: 3rem; }
+        .studio__secondrow--rightpart .patricia .patriciaimage {
+          margin-bottom: 2rem; }
+        .studio__secondrow--rightpart .patricia .patriciaintroduction {
+          display: flex;
+          justify-content: flex-start;
+          flex-direction: column; }
+          .studio__secondrow--rightpart .patricia .patriciaintroduction p:first-child {
+            font-size: 1.7rem;
+            color: #4c4c4c;
+            font-weight: 900; }
+          .studio__secondrow--rightpart .patricia .patriciaintroduction p {
+            font-size: 1.7rem;
+            color: #4c4c4c;
+            line-height: 1.5rem; }
+        .studio__secondrow--rightpart .patricia .signs {
+          display: flex;
+          width: 100%;
+          margin-top: 2rem;
+          justify-content: space-between; }
+          .studio__secondrow--rightpart .patricia .signs__left {
+            display: flex;
+            justify-content: flex-start;
+            width: 20%; }
+            .studio__secondrow--rightpart .patricia .signs__left .cv p {
+              font-size: 3rem;
+              color: #ff9b6d;
+              font-weight: 900; }
+            .studio__secondrow--rightpart .patricia .signs__left .cv i {
+              font-size: 3rem;
+              color: #ff9b6d; }
+          .studio__secondrow--rightpart .patricia .signs__right {
+            display: flex;
+            justify-content: flex-end;
+            width: 60%; }
+            .studio__secondrow--rightpart .patricia .signs__right .facebook {
+              margin-right: 1rem; }
+              .studio__secondrow--rightpart .patricia .signs__right .facebook i {
+                font-size: 1.7rem;
+                color: #ff9b6d; }
+            .studio__secondrow--rightpart .patricia .signs__right .twitter {
+              margin-right: 1rem; }
+              .studio__secondrow--rightpart .patricia .signs__right .twitter i {
+                font-size: 1.7rem;
+                color: #ff9b6d; }
+            .studio__secondrow--rightpart .patricia .signs__right .linkedin {
+              margin-right: 1rem; }
+              .studio__secondrow--rightpart .patricia .signs__right .linkedin i {
+                font-size: 1.7rem;
+                color: #ff9b6d; }
+            .studio__secondrow--rightpart .patricia .signs__right .googleplus i {
               font-size: 1.7rem;
               color: #ff9b6d; }
 

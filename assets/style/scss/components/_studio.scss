@@ -151,14 +151,15 @@
                         @include flex('',flex-start,'','','');
                         width:20%;
                         .cv{
+                            display:flex;
                             p{
-                                position: relative;
+                                // position: relative;
                                 font-size:3rem;
                                 color: $light-orange;
                                 font-weight:900;
 
-                                span{
-                                    position:absolute;
+                                i{
+                                    // position:absolute;
                                     font-size:3rem;
                                     color:$light-orange;
                                     font-weight:900;
@@ -204,6 +205,172 @@
 
                 }
 
+            }
+            .mario{
+                margin-top:6rem;
+                margin-left:3rem;
+                .marioimage{
+                    margin-bottom:2rem;
+                }
+                .mariointroduction{
+                    @include flex(column,flex-start,'','','');
+                    
+                        p:first-child{
+                            font-size:1.7rem;
+                            color:$fonts-title;
+                            font-weight:900;
+                        }
+                                        
+                        p{
+                            font-size:1.7rem;
+                            color:$fonts-title;
+                            line-height:1.5rem;
+                        }
+                }
+                .signs{
+                    display:flex;
+                    width:100%;
+                    margin-top:2rem;
+                    justify-content:space-between;
+                    &__left{
+                        @include flex('',flex-start,'','','');
+                        width:20%;
+                        .cv{
+                            p{
+                                // position: relative;
+                                font-size:3rem;
+                                color: $light-orange;
+                                font-weight:900;
+
+                                i{
+                                    // position:absolute;
+                                    font-size:3rem;
+                                    color:$light-orange;
+                                    font-weight:900;
+                                }
+                            }
+                    }
+                    }
+                    &__right{
+                        @include flex('',flex-end,'','','');
+                        width:60%;
+                        
+                        .facebook{
+                            margin-right:1rem;
+                            i{
+                                font-size:1.7rem;
+                                color:$light-orange;
+                            }
+                        }
+                        .twitter{
+                            margin-right:1rem;
+
+                            i{
+                                font-size:1.7rem;
+                                color:$light-orange;
+                            }
+                        }
+                        .linkedin{
+                            margin-right:1rem;
+
+                            i{
+                                font-size:1.7rem;
+                                color:$light-orange;
+                            }
+                        }
+                        .googleplus{
+                            i{
+                                font-size:1.7rem;
+                                color:$light-orange;
+                            }
+                        }
+                    }
+               
+
+                }
+            }
+            .patricia{
+                margin-top:6rem;
+                margin-left:3rem;
+                .patriciaimage{
+                    margin-bottom:2rem;
+                }
+                .patriciaintroduction{
+                    @include flex(column,flex-start,'','','');
+                    
+                        p:first-child{
+                            font-size:1.7rem;
+                            color:$fonts-title;
+                            font-weight:900;
+                        }
+                                        
+                        p{
+                            font-size:1.7rem;
+                            color:$fonts-title;
+                            line-height:1.5rem;
+                        }
+                }
+                .signs{
+                    display:flex;
+                    width:100%;
+                    margin-top:2rem;
+                    justify-content:space-between;
+                    &__left{
+                        @include flex('',flex-start,'','','');
+                        width:20%;
+                        .cv{
+                            p{
+                                // position: relative;
+                                font-size:3rem;
+                                color: $light-orange;
+                                font-weight:900;
+
+                            }
+                                    i{
+                                        // position:absolute;
+                                        font-size:3rem;
+                                        color:$light-orange;
+                                        // font-weight:900;
+                                    }
+                    }
+                    }
+                    &__right{
+                        @include flex('',flex-end,'','','');
+                        width:60%;
+                        
+                        .facebook{
+                            margin-right:1rem;
+                            i{
+                                font-size:1.7rem;
+                                color:$light-orange;
+                            }
+                        }
+                        .twitter{
+                            margin-right:1rem;
+
+                            i{
+                                font-size:1.7rem;
+                                color:$light-orange;
+                            }
+                        }
+                        .linkedin{
+                            margin-right:1rem;
+
+                            i{
+                                font-size:1.7rem;
+                                color:$light-orange;
+                            }
+                        }
+                        .googleplus{
+                            i{
+                                font-size:1.7rem;
+                                color:$light-orange;
+                            }
+                        }
+                    }
+               
+
+                }
             }
         }
     }
