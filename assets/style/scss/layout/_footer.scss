@@ -3,7 +3,12 @@
     width: 100%;
     &__left{
         width:50%;
-        background-color: red;
+        // background-color: red;
+        #mapid {
+             height: 100%; 
+             width:100%;
+             overflow: hidden;
+            }
     }
 
     &__right{

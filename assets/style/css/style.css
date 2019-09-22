@@ -259,8 +259,11 @@ body {
   display: flex;
   width: 100%; }
   .footersection__left {
-    width: 50%;
-    background-color: red; }
+    width: 50%; }
+    .footersection__left #mapid {
+      height: 100%;
+      width: 100%;
+      overflow: hidden; }
   .footersection__right {
     width: 50%;
     display: flex;
